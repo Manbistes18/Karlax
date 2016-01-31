@@ -1,0 +1,319 @@
+Karlax Audio Historique
+
+16-11-15 v1.3
+ 
+bug
+
+
+- problème avec écriture de « préférence » MAC OK /PC
+
+- compilation totale sur PC OK
+- KarlMax pour Max 7 OK
+
+- Mise à jour de la partie graphique OK
+- record module réglé sur P1G par défaut OK
+
+- bug clic souris ON/OFF sur générateur "samples"
+
+- ajouter vu-mètre entrée micro sur Record buffer
+- abaisser les valeurs de tempo à 0 si possible ou 1 (le plus lent possible) sur Ctrl Seq - N Seq - generator loop - FFT delay - pan enveloppe.
+
+- ajouter un moteur gestuel type séquenceur percu à intégrer dans la matrice MIDI avec commande sur 3 axes X,Y,Z adapté au Zil:
+ morphing cellule rythmique, morphing intensité/densité, morphing timbre/sample....?
+
+
+31-12-14 v1.22
+
+bugs corrigés :
+
+- Mode enveloppe donne HP1 et HP6 quand seulement 1 ds la liste
+
+bug
+
+- preset OctoSolo ne se charge plus
+
+
+8-12-14 v1.21
+
+Correction d’un bug affectant le contrôleur Z1DN. Le problème venait du fait que le contrôleur Z3DN portait le même nom.
+
+
+1-11-14 v1.2
+
+Ajout de menus pour utilisation de 4 Zil en plus du Karlax
+
+
+- pan 360 a besoin d’une valeur pour commencer à spatialiser OK ?
+- 32 écrit pour chaque son dans la liste de buffers OK
+- samples ne marche plus…??? Pas déclenché si vélocité valeur = 127. OK (venait de ctrl-device-list.coll pas compléter avec les commandes de Zil
+
+
+
+14-04-14
+
+Bugs :
+
+- verifier si synthé en mode voice steel on
+
+
+17-03-14
+
+- les préférences sont correctement sauvées par le standalone (copier les préférences dans le dossier support du paquet de l’application
+
+- les menus d’assignation sont correctement affichés 
+
+
+
+24-09-13
+
+Bugs
+
+- agiter le decay dans le synthé pour qu'il sorte un premier son OK
+- les voix du synthé ne s'éteignent pas OK
+
+
+
+20-03-13
+
+v1.1
+
+- ajouter A R pour les boucles
+- ajouter GrainDelay ?
+- régler bug en cas de mode toggle d'un preset à l'autre OK
+- choix du canal pour le record
+- vardelay : les valeurs de delay ne sont pas envoyé lors du rechargement d'un preset OK
+- passage à 8 bandes pour le spectral delay ; + valeur non envoyées après chargement presets OK
+- spectraldelay rotate ne marche pas OK
+- petites valeurs d'enveloppe pour synthè trop difficile à régler --> ajouter exposant. OK
+
+
+
+22-12-11
+
+Correction d'un problème avec la durée des fichiers sons qui remplace la valeur des presets.
+
+25-09-2010
+
+ATTENTION ! : Frenquency Shift  --> FreqFreqShift-Trsp
+
+A FAIRE
+
+- simplifier mémorisation des controls : ne plus mémoriser le menu source. Utiliser le même système que le learn pour rappeler la bonne configuration du menu. OK
+- revision du mode Loop : ajout lecture normal (one shot) OK
+- panic assignable OK
+- regarder assignation fichiers midifiles pour régler problème de vélocité non prise en compte. OK
+- finir aspect visuel FX et Gen OK
+
+
+BUGS 
+
+- les sliders de volume affichent mal les niveaux négatifs.
+- le menu VST n'est pas populaté automatiquement
+- problème avec le mode toggle quand changement de preset
+
+- rattrapage de pramètre ?
+- record buffer ne s'affiche pas dans samples et autre après un rappel de preset
+- le nom du preset courant ne s'affiche pas quand rappelé de la fenêtre Live
+
+
+
+Historique des versions
+-----------------------
+
+v1.0
+
+
+
+v 1b 1110
+
+24/11/10
+
+- ajout du monde CH (accord) dans l'arpégiator.
+11/10/10
+
+- changement des couleurs de la fenêtre DSP Status
+- 
+
+v 1b 0919
+
+25/09/10
+
+- Ajout de 8 buffers d'enregistrement
+- Ajout d'un bouton Clear All Ctrl
+- Ajout des nouveaux switches et bend de l'axe
+- Ajout d'un bouton Write pour écrire les buffers enregistrés sur e disque dur
+- Ajout d'un dry/wet pour les effets (fx_mix)
+
+v 0.99
+
+23/05/09
+
+- ajout de la notion de dossier projet pour gérer les chemins vers les fichiers
+
+16/03/09 et 20/03/09
+
+-ajout du monitoring de contr√¥leurs
+
+
+27/02/09 et 6/03/09
+Version compatible max 5
+
+- adaptation de l'interface graphique
+
+v 0.98
+
+26/01/2009
+
+MIse en place des nouveaux trigger dans le player de Midifile et les préférences
+
+19/01/2009
+
+Des couleurs allant du gris clair au gris fon√ßé matérialisent le routing sur les modules.
+
+Les contr√¥leurs déj√† utilisés dans un preset sont checkés.
+
+Retour de l'entrée clavier et de l'édition avec le clavier dans le sequenceur de notes.
+
+bugs corrigés 
+
+- les ctrl seq 1_4 sont accessibles dans les menus
+
+13/12/2008
+
+Les paramètres continus peuvent être déclenché par des notes.
+Optimisation générale par la supression d'ojets send~ receive~.
+
+v 0.97
+
+
+12/12/2008
+
+bugs corrigés 
+
+- Le mode boucle ne fait plus de clics
+- Ajout de  paramètres par défaut dans cm-osc et cm-note-seq pour que les informations soient bien mémorisées dans les presets
+- La première performance est chargées lors du chargement d'une playlist
+
+Ajout d'un bouton pour effacer la performance assignée √† un slot.
+
+
+28/11/2008
+
+Ajout controleurs +-
+Debuggage fonctions video
+
+28/11/2008
+
+Effacement des fonctions de remplissage des sequenceurs de notes au clavier
+Ajustements graphiques
+
+7/11/2008
+
+Intégration des fonctions videos
+
+27/10/2008
+
+Ajout fonctions dmx
+
+
+
+V 0.96
+
+10/9/2008
+
+- presets pour les baziques
+
+29/9/2008
+
+bugs corrigés
+
+- messages d'erreurs de la fenêtre Max concernant vbap
+
+
+26/9/2008
+
+bugs corrigés
+
+- les notes s'affichent dans arp après le chargement d'une performance (utilisation objet "active")
+- l'arp ne joue plus de notes lors d'un changement de preset
+- le synthé ne clique plus quand l'attaque est √† zéro
+
+V 0.95.2
+
+14/9/2008
+
+bugs corrigés
+
+- la note incluse dans les samples n'est plus utilisée par le sampler
+- le mode de spatialisation est bien mémorisé
+
+22/8/2008
+
+Ajout d'une fonction pour décaler √† droite ou √† gauche une séquence de note dans la matrice. (ATTENTION Group 256 -> peut causer des erreurs (sera réglé ds Max 5)
+
+Ajout d'une transposition pour le mode loop
+
+bugs corrigés
+
+- osc 2 du synthé a un volume très faible
+- le sampler peut √† nouveau recevoir des notes provenant des boites midi
+- le mode loop marche correctement après un rappel de preset
+- le prgm des vsti est correctement rappelé
+- le prgm des vst est correctement rappelé
+
+
+
+8/8/2008
+
+<not_selected> remplacé par <all> ds midi in et midi out
+on peut maintenant désassigner un paramètre ds les modules vst et vsti
+ajout de preset de forme dans les contr√¥leurs séquences
+ajout de commentaires dans les générateurs de MIDI
+
+bug corrigés
+
+- ctrl_S1-4 n‚Äôenvoie pas de datas
+- la fonction append ne marche pas ds ctl seq
+- global tempo ds ctrlseq remarche
+
+
+1/8/2008 
+
+ajout de commentaires dans les boites osc, fx et pan
+changement des paramètres par défaut de l'effet filtre
+réajustement graphiques ds la fenêtre FX
+activation avec la diode dans ds fenêtre de choix du déclencheur
+
+bugs corrigés :
+- min max ds boite choix de controller entier
+- internal tempo pour les boucles remarche
+- internal tempo pour env pan remarche
+- ds note sq un clear remet la tête d'édition √† 0, la tête de lecture suit la position même si le pas est éteint, report ds les boites de contr√¥le quand changement de début et fin.
+
+V 0.95
+
+suppression du suport des anciens objets max dans le standalone
+corection de la taille de la fenêtre pour un affichage corect en 1024x768
+
+V 0.94
+
+ajout d'une fenêtre dsp status spécifique au standalone
+
+V 0.93 juillet 2008
+
+Ajout du déclenchement avec les contr√¥leurs continus
+
+Bugs coorigés :
+La spatialisation n'envoie plus trop de son √† droite
+
+V 0.92 juin 2008
+
+Ajout de 4 osc, 4 fx et 4 pan
+Ajout de 2 midifiles
+Ajout de 2 seq de notes
+Agradissements des matrices MIDI et AUDIO en conséquence
+2 trigers pour les midifiles
+Modification de l'interface destinée aux déclenchements avec l'accéléromètre.
+
+Bugs coorigés :
+La configuration des HPs est mémorisée.
