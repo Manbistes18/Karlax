@@ -110,7 +110,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 743.0, 476.0, 113.0, 20.0 ],
+					"patching_rect" : [ 743.0, 437.0, 113.0, 20.0 ],
 					"style" : "",
 					"text" : "Transpo en cents"
 				}
@@ -123,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 634.0, 476.0, 103.0, 22.0 ],
+					"patching_rect" : [ 634.0, 437.0, 103.0, 22.0 ],
 					"style" : "",
 					"text" : "pitchshiftcent $1"
 				}
@@ -968,6 +968,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 138.0, 926.0, 47.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out~ 1"
 				}
@@ -998,6 +1002,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 27.0, 22.0, 31.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 1"
 				}

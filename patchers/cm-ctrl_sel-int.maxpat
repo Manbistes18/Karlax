@@ -3,9 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 6,
-			"architecture" : "x86",
+			"minor" : 1,
+			"revision" : 0,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -1340,7 +1340,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 31.0, 70.0, 20.0 ],
+					"patching_rect" : [ 13.0, 31.0, 71.0, 20.0 ],
 					"pattrmode" : 1,
 					"style" : "",
 					"textcolor" : [ 0.149, 0.149, 0.149, 1.0 ],
@@ -2081,18 +2081,18 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "menu_items.coll.txt",
-				"bootpath" : "~/MesDocuments/Dafact/Max/KarlMax/Developpement/KarlMaxAudioProjectMax7/data",
+				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-item-check.maxpat",
-				"bootpath" : "~/MesDocuments/Dafact/Max/KarlMax/Developpement/KarlMaxAudioProjectMax7/patchers",
+				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }
