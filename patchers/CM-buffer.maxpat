@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 731.0, 172.0, 752.0, 918.0 ],
+		"rect" : [ 731.0, 172.0, 681.0, 918.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -113,7 +113,6 @@
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"arrow" : 0,
 					"autopopulate" : 1,
 					"id" : "obj-29",
 					"items" : "<empty>",

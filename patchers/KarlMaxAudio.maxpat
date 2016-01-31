@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 335.0, 63.0, 1016.0, 725.0 ],
+		"rect" : [ 331.0, 56.0, 1016.0, 725.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -3027,7 +3027,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 209.5, 24.0, 37.0, 17.0 ],
 					"style" : "",
-					"text" : "v 1.3",
+					"text" : "v 1.31",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -6778,7 +6778,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 795.0, 120.0, 61.0, 17.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 625, 557, 1384, 1054, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"style" : "",
 									"text" : "thispatcher"
 								}
@@ -9603,7 +9603,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 18.0, 70.0, 247.0, 19.0 ],
 									"style" : "",
-									"text" : "System:/Applications/KarlaxAudioMacv1_1/MyKarlaxProject/",
+									"text" : "System:/Users/lochard/Dropbox/Perso/Contes_d_automne2015/",
 									"varname" : "project_path-ABC"
 								}
 
@@ -11208,7 +11208,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1054.0, 413.0, 78.0, 22.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 335, 63, 1351, 788, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 331, 56, 1347, 781, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"style" : "",
 					"text" : "thispatcher"
 				}
@@ -15266,7 +15266,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 441.0, 141.0, 984.0, 642.0 ],
+						"rect" : [ 810.0, 335.0, 984.0, 642.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -15910,7 +15910,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 1266.0, 609.0, 78.0, 22.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 441, 141, 1425, 783, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 810, 335, 1794, 977, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"style" : "",
 									"text" : "thispatcher"
 								}
@@ -16621,7 +16621,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 745.0, 358.0, 751.0, 495.0 ],
+						"rect" : [ 915.0, 397.0, 751.0, 495.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -16673,7 +16673,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 783.0, 140.0, 61.0, 19.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 915, 397, 1666, 892, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"style" : "",
 									"text" : "thispatcher"
 								}
@@ -22685,17 +22685,23 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-290::obj-16::obj-314" : [ "vst~[4]", "vst~", 0 ],
-			"obj-208::obj-16::obj-314" : [ "vst~[2]", "vst~", 0 ],
+			"obj-292::obj-16::obj-314" : [ "vst~[6]", "vst~", 0 ],
+			"obj-317::obj-16::obj-314" : [ "vst~[7]", "vst~", 0 ],
+			"obj-206::obj-16::obj-314" : [ "vst~", "vst~", 0 ],
 			"obj-207::obj-16::obj-314" : [ "vst~[1]", "vst~", 0 ],
 			"obj-291::obj-16::obj-314" : [ "vst~[5]", "vst~", 0 ],
-			"obj-292::obj-16::obj-314" : [ "vst~[6]", "vst~", 0 ],
-			"obj-206::obj-16::obj-314" : [ "vst~", "vst~", 0 ],
-			"obj-317::obj-16::obj-314" : [ "vst~[7]", "vst~", 0 ],
-			"obj-209::obj-16::obj-314" : [ "vst~[3]", "vst~", 0 ]
+			"obj-209::obj-16::obj-314" : [ "vst~[3]", "vst~", 0 ],
+			"obj-208::obj-16::obj-314" : [ "vst~[2]", "vst~", 0 ],
+			"obj-290::obj-16::obj-314" : [ "vst~[4]", "vst~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "1erJournee.xml",
+				"bootpath" : "~/Dropbox/Perso/Contes_d_automne2015",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "CM-ExtDevice.maxpat",
 				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
