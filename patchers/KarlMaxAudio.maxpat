@@ -9,8 +9,8 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 331.0, 56.0, 1016.0, 725.0 ],
-		"bglocked" : 0,
+		"rect" : [ 336.0, 48.0, 1016.0, 725.0 ],
+		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -3025,7 +3025,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 209.5, 24.0, 37.0, 17.0 ],
+					"patching_rect" : [ 101.5, 40.0, 37.0, 17.0 ],
 					"style" : "",
 					"text" : "v 1.31",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -3040,7 +3040,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 111.0, 19.0, 119.0, 22.0 ],
+					"patching_rect" : [ 4.0, 35.0, 119.0, 22.0 ],
 					"style" : "",
 					"text" : "KarlMaxAudio",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -3794,7 +3794,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 931.0, 674.0, 66.0, 20.0 ],
+					"patching_rect" : [ 931.0, 670.0, 66.0, 20.0 ],
 					"style" : "",
 					"text" : "Prefs",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -3815,7 +3815,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 862.0, 674.0, 66.0, 20.0 ],
+					"patching_rect" : [ 862.0, 670.0, 66.0, 20.0 ],
 					"style" : "",
 					"text" : "DSP",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -6778,7 +6778,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 795.0, 120.0, 61.0, 17.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 625, 557, 1384, 1054, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"style" : "",
 									"text" : "thispatcher"
 								}
@@ -9603,7 +9603,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 18.0, 70.0, 247.0, 19.0 ],
 									"style" : "",
-									"text" : "System:/Users/lochard/Dropbox/Perso/Contes_d_automne2015/",
+									"text" : "System:/Applications/KarlaxAudioMacv1_1/MyKarlaxProject/",
 									"varname" : "project_path-ABC"
 								}
 
@@ -11208,7 +11208,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1054.0, 413.0, 78.0, 22.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 331, 56, 1347, 781, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 336, 48, 1352, 773, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"style" : "",
 					"text" : "thispatcher"
 				}
@@ -11222,7 +11222,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 711.0, 0.0, 154.0, 27.0 ],
+					"patching_rect" : [ 850.0, 0.0, 154.0, 27.0 ],
 					"style" : "",
 					"text" : "Global Tempo",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -11243,7 +11243,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ -2.0, -78.0 ],
-					"patching_rect" : [ 683.0, 21.0, 178.0, 50.0 ],
+					"patching_rect" : [ 822.0, 21.0, 178.0, 50.0 ],
 					"varname" : "global_tempo",
 					"viewvisibility" : 1
 				}
@@ -11309,7 +11309,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 994.0, 39.0, 17.0, 18.0 ],
+					"patching_rect" : [ 996.0, 699.0, 17.0, 18.0 ],
 					"style" : "",
 					"text" : "%",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -11329,8 +11329,8 @@
 					"name" : "cm-midi_in.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"offset" : [ 2.0, -91.0 ],
-					"patching_rect" : [ 262.5, 21.0, 420.0, 50.0 ],
+					"offset" : [ -1.0, -180.0 ],
+					"patching_rect" : [ 137.0, 21.0, 682.0, 50.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -11344,7 +11344,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 859.0, 39.0, 34.0, 18.0 ],
+					"patching_rect" : [ 861.0, 698.0, 34.0, 18.0 ],
 					"style" : "",
 					"text" : "CPU",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -11368,7 +11368,7 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 886.0, 43.0, 82.0, 9.0 ],
+					"patching_rect" : [ 888.0, 702.0, 82.0, 9.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"setminmax" : [ 0.0, 100.0 ],
 					"setstyle" : 1,
@@ -11391,7 +11391,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 970.0, 39.0, 30.0, 20.0 ],
+					"patching_rect" : [ 972.0, 698.0, 30.0, 20.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"triangle" : 0,
@@ -11761,7 +11761,7 @@
 					"numoutlets" : 1,
 					"offset" : [ -19.0, -43.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 856.0, 109.0, 146.0, 327.0 ],
+					"patching_rect" : [ 855.5, 107.0, 146.0, 327.0 ],
 					"varname" : "cm-presets-BP",
 					"viewvisibility" : 1
 				}
@@ -14773,7 +14773,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 77.0, 375.0, 166.0, 27.0 ],
+					"patching_rect" : [ 82.0, 377.0, 166.0, 27.0 ],
 					"style" : "",
 					"text" : "Midi Notes Matrix",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -15177,7 +15177,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 102.0, 62.0, 154.0, 27.0 ],
+					"patching_rect" : [ 102.0, 65.0, 154.0, 27.0 ],
 					"style" : "",
 					"text" : "Audio Matrix",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -15910,7 +15910,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 1266.0, 609.0, 78.0, 22.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 810, 335, 1794, 977, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"style" : "",
 									"text" : "thispatcher"
 								}
@@ -16621,7 +16621,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 915.0, 397.0, 751.0, 495.0 ],
+						"rect" : [ 931.0, 404.0, 751.0, 495.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -16673,7 +16673,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 783.0, 140.0, 61.0, 19.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 915, 397, 1666, 892, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 931, 404, 1682, 899, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"style" : "",
 									"text" : "thispatcher"
 								}
@@ -22685,23 +22685,17 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-292::obj-16::obj-314" : [ "vst~[6]", "vst~", 0 ],
-			"obj-317::obj-16::obj-314" : [ "vst~[7]", "vst~", 0 ],
-			"obj-206::obj-16::obj-314" : [ "vst~", "vst~", 0 ],
-			"obj-207::obj-16::obj-314" : [ "vst~[1]", "vst~", 0 ],
-			"obj-291::obj-16::obj-314" : [ "vst~[5]", "vst~", 0 ],
 			"obj-209::obj-16::obj-314" : [ "vst~[3]", "vst~", 0 ],
+			"obj-291::obj-16::obj-314" : [ "vst~[5]", "vst~", 0 ],
+			"obj-317::obj-16::obj-314" : [ "vst~[7]", "vst~", 0 ],
+			"obj-290::obj-16::obj-314" : [ "vst~[4]", "vst~", 0 ],
+			"obj-206::obj-16::obj-314" : [ "vst~", "vst~", 0 ],
 			"obj-208::obj-16::obj-314" : [ "vst~[2]", "vst~", 0 ],
-			"obj-290::obj-16::obj-314" : [ "vst~[4]", "vst~", 0 ]
+			"obj-292::obj-16::obj-314" : [ "vst~[6]", "vst~", 0 ],
+			"obj-207::obj-16::obj-314" : [ "vst~[1]", "vst~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "1erJournee.xml",
-				"bootpath" : "~/Dropbox/Perso/Contes_d_automne2015",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "CM-ExtDevice.maxpat",
 				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
