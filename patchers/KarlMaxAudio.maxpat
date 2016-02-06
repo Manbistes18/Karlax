@@ -3027,7 +3027,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 101.5, 40.0, 37.0, 17.0 ],
 					"style" : "",
-					"text" : "v 1.31",
+					"text" : "v 1.4",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
