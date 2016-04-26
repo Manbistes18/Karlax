@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 342.0, 56.0, 1016.0, 725.0 ],
+		"rect" : [ 675.0, 113.0, 1016.0, 725.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -70,7 +70,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2572.0, 313.0, 651.0, 22.0 ],
 					"style" : "",
-					"text" : "System:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers/"
+					"text" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers/"
 				}
 
 			}
@@ -255,7 +255,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1130.0, 299.0, 155.0, 35.0 ],
 					"style" : "",
-					"text" : ";\rmax nativetextrendering $1"
+					"text" : ";\r\nmax nativetextrendering $1"
 				}
 
 			}
@@ -3027,7 +3027,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 101.5, 40.0, 37.0, 17.0 ],
 					"style" : "",
-					"text" : "v 1.41",
+					"text" : "v 1.42",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -3040,7 +3040,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 35.0, 119.0, 22.0 ],
+					"patching_rect" : [ 4.0, 35.0, 119.0, 23.0 ],
 					"style" : "",
 					"text" : "KarlMaxAudio",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -3283,7 +3283,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 365.0, 543.0, 40.0, 21.0 ],
+					"patching_rect" : [ 365.0, 543.0, 40.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "ctrl_display_0-MN"
@@ -3369,7 +3369,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 308.0, 613.0, 147.0, 21.0 ],
+					"patching_rect" : [ 308.0, 613.0, 147.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "ctrl_display_4-MN"
@@ -3395,7 +3395,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 308.0, 596.0, 147.0, 21.0 ],
+					"patching_rect" : [ 308.0, 596.0, 147.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "ctrl_display_3-MN"
@@ -3421,7 +3421,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 308.0, 580.0, 147.0, 21.0 ],
+					"patching_rect" : [ 308.0, 580.0, 147.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "ctrl_display_2-MN"
@@ -3447,7 +3447,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 308.0, 564.0, 147.0, 21.0 ],
+					"patching_rect" : [ 308.0, 564.0, 147.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "ctrl_display_1-MN"
@@ -11208,7 +11208,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1054.0, 413.0, 78.0, 22.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 342, 56, 1358, 781, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 675, 113, 1691, 838, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"style" : "",
 					"text" : "thispatcher"
 				}
@@ -22685,559 +22685,563 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-209::obj-16::obj-314" : [ "vst~[3]", "vst~", 0 ],
-			"obj-292::obj-16::obj-314" : [ "vst~[6]", "vst~", 0 ],
-			"obj-208::obj-16::obj-314" : [ "vst~[2]", "vst~", 0 ],
 			"obj-291::obj-16::obj-314" : [ "vst~[5]", "vst~", 0 ],
-			"obj-206::obj-16::obj-314" : [ "vst~", "vst~", 0 ],
-			"obj-207::obj-16::obj-314" : [ "vst~[1]", "vst~", 0 ],
 			"obj-290::obj-16::obj-314" : [ "vst~[4]", "vst~", 0 ],
-			"obj-317::obj-16::obj-314" : [ "vst~[7]", "vst~", 0 ]
+			"obj-206::obj-16::obj-314" : [ "vst~", "vst~", 0 ],
+			"obj-209::obj-16::obj-314" : [ "vst~[3]", "vst~", 0 ],
+			"obj-317::obj-16::obj-314" : [ "vst~[7]", "vst~", 0 ],
+			"obj-208::obj-16::obj-314" : [ "vst~[2]", "vst~", 0 ],
+			"obj-292::obj-16::obj-314" : [ "vst~[6]", "vst~", 0 ],
+			"obj-207::obj-16::obj-314" : [ "vst~[1]", "vst~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "CM-ExtDevice.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-mem-pref.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CM-Arpegiator.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-ctrl_sel-int.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "menu_items.coll.txt",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/data",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-item-check.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-ctrl_sel-conf.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sync_to_g-tempo.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-note_sel.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-window_float.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CM-NoteSeq.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CMNotesCell8.jpg",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CMVelCell8.jpg",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CMOnOffCell8.jpg",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-kb.jpg",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "shift-matrix.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CM-buffer.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-window_nofloat.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CM-dtd.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-slider_vert2.jpg",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-slider2.jpg",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-note_sel_dtd.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sync_to_g-tempo_dtd.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CM-record_buffer.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CM-CtrlSeq.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CM-MidiMatrix.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CMDefaultCell.jpg",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CM-Midifile.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-2notes_sel.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-fx_win.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CM-FX.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-poly_filter.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-poly_var_delay.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dfct.vdb~.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-ctrl_sel.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-poly_freq_shift.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gizmo_pfft.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-ctrl_sel-vst.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm_stringcomp.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm_spectdelayfft~.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bandtobin.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sync_to_g-tempo_fftdel.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-poly_disto.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-lpass1~.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hz-radians.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-poly_ringmod.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-spat_win.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CM-Spat.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-poly_pan.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-poly_env-spat.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sync_to_g-tempo_spat.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-poly_stereo.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mod.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-one_box.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-slider_vert.jpg",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-slider1.jpg",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm_window.png",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-one_box_no_vu.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-presets.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-osc_win.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CM-Osc.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-poly_sampler.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-poly_loop.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-poly_grain.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-multisamp_sel.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ctrl-device-list.coll",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/other",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/other",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-synth_env_ctrl.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-synth_filter_ctrl.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-synth_osc_ctrl.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-synth_voice_poly.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-synth_osc.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-synth_adsr_line.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-synth_filter_poly.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-one_box_no_name.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-audio-out.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CM-AudioMatrix.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-midi_in.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-global_tempo.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-note_sel_pref.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ka_preferences.coll",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-options.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm_ctrl_incdec.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm_accelero_abs_pos.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-decl_karlax.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "accel.jpg",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-live_win.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "default_playlist.plist",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/other",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/other",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "da karlax.png",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-assign-note.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cm-assign-ctrl.maxpat",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "C:/Users/lochard/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "najo.multipan.mxo",
-				"type" : "iLaX"
+				"name" : "omsinfo.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "najo.multipan.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
