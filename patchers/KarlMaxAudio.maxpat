@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 1,
+			"minor" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -296,8 +296,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1423,8 +1423,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3027,7 +3027,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 101.5, 40.0, 37.0, 17.0 ],
 					"style" : "",
-					"text" : "v 1.43",
+					"text" : "v 1.44",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -6720,8 +6720,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6778,7 +6778,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 795.0, 120.0, 61.0, 17.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 625, 557, 1384, 1054, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"style" : "",
 									"text" : "thispatcher"
 								}
@@ -7682,8 +7682,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8028,8 +8028,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10981,8 +10981,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12032,8 +12032,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -14424,8 +14424,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -14568,7 +14568,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 817.0, 179.0, 61.0, 17.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 387, 528, 1135, 897, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"style" : "",
 									"text" : "thispatcher"
 								}
@@ -14813,8 +14813,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -15260,8 +15260,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -16615,8 +16615,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -16673,7 +16673,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 783.0, 140.0, 61.0, 19.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 931, 404, 1682, 899, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"style" : "",
 									"text" : "thispatcher"
 								}
@@ -16865,8 +16865,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 2,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -22685,14 +22685,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-290::obj-16::obj-314" : [ "vst~[4]", "vst~", 0 ],
-			"obj-291::obj-16::obj-314" : [ "vst~[5]", "vst~", 0 ],
-			"obj-207::obj-16::obj-314" : [ "vst~[1]", "vst~", 0 ],
-			"obj-209::obj-16::obj-314" : [ "vst~[3]", "vst~", 0 ],
-			"obj-206::obj-16::obj-314" : [ "vst~", "vst~", 0 ],
 			"obj-317::obj-16::obj-314" : [ "vst~[7]", "vst~", 0 ],
+			"obj-206::obj-16::obj-314" : [ "vst~", "vst~", 0 ],
+			"obj-208::obj-16::obj-314" : [ "vst~[2]", "vst~", 0 ],
+			"obj-291::obj-16::obj-314" : [ "vst~[5]", "vst~", 0 ],
 			"obj-292::obj-16::obj-314" : [ "vst~[6]", "vst~", 0 ],
-			"obj-208::obj-16::obj-314" : [ "vst~[2]", "vst~", 0 ]
+			"obj-207::obj-16::obj-314" : [ "vst~[1]", "vst~", 0 ],
+			"obj-290::obj-16::obj-314" : [ "vst~[4]", "vst~", 0 ],
+			"obj-209::obj-16::obj-314" : [ "vst~[3]", "vst~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -22849,12 +22849,6 @@
 				"name" : "CM-MidiMatrix.maxpat",
 				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "CMDefaultCell.jpg",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
-				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
@@ -23171,7 +23165,7 @@
 			}
 , 			{
 				"name" : "ka_preferences.coll",
-				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/other",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

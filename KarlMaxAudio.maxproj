@@ -1,8 +1,8 @@
 {
 	"name" : "KarlMaxAudio",
 	"version" : 1,
-	"creationdate" : -819572755,
-	"modificationdate" : 3535974958,
+	"creationdate" : -819572876,
+	"modificationdate" : 3559368632,
 	"viewrect" : [ 29.0, 54.0, 297.0, 695.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
