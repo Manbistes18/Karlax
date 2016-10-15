@@ -1,6 +1,6 @@
 Karlax Audio Bugs :
 
-- vérifier Pan 360°
+- vérifier Pan 360° OK
 - vérifier module sample stretch
 	- 2 samples -> plus de stretching
 	- > quand on modifie les valuers du speed -> le Toggle ne marche plus.

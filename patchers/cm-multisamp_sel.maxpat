@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
+			"minor" : 3,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 360.0, 79.0, 1066.0, 1081.0 ],
+		"rect" : [ 360.0, 79.0, 1166.0, 1048.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
@@ -1414,7 +1414,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 10.0,
 					"id" : "obj-35",
-					"items" : [ "Off", ",", "(KARLAX)", ",", "(Pistons)", ",", "P1G (C3)", ",", "P2G (C#3)", ",", "P3G (D3)", ",", "P4G (D#3)", ",", "P1D (E3)", ",", "P2D (F3)", ",", "P3D (F#3)", ",", "P4D (G3)", ",", "(Keys)", ",", "T1G (cc1)", ",", "T2G (cc2)", ",", "T3G (cc3)", ",", "T4G (cc4)", ",", "T5G (cc5)", ",", "T1D (cc7)", ",", "T2D (cc8)", ",", "T3D (cc9)", ",", "T4D (cc10)", ",", "T5D (cc11)", ",", "(Axis)", ",", "AXE (cc6)", ",", "AB1 (cc15)", ",", "AB2 (cc16)", ",", "(Switches)", ",", "S1G (C5)", ",", "S2G (C#5)", ",", "S3G (D5)", ",", "S4G (D#5)", ",", "S1D (E5)", ",", "S2D (F5)", ",", "S3D (F#5)", ",", "S4D (G5)", ",", "(Back Switches)", ",", "B1G", ",", "B2G", ",", "B3G", ",", "B4G", ",", "B5G", ",", "B1D (A6)", ",", "B2D (G#6)", ",", "B3D (G6)", ",", "B4D (F#6)", ",", "(Pitch&Roll)", ",", "APT (cc21)", ",", "ARL (cc20)", ",", "(Translations)", ",", "ADN", ",", "AFU", ",", "AFD", ",", "ALD", ",", "ARD", ",", "ARV", ",", "ADX", ",", "ADY", ",", "ADZ", ",", "(Ctrl_seq)", ",", "CS1", ",", "CS2", ",", "CS3", ",", "CS4", ",", "(Ctrl+-)", ",", "ID1", ",", "ID2", ",", "(Orientation)", ",", "OR1", ",", "OR2", ",", "OR3", ",", "OR4", ",", "OR5", ",", "OR6", ",", "(ZIL1)", ",", "(Accel)", ",", "Z1PX", ",", "Z1PY", ",", "Z1PR", ",", "Z1AX", ",", "Z1AY", ",", "Z1AZ", ",", "Z1GX", ",", "Z1GY", ",", "Z1GZ", ",", "(Triggers)", ",", "Z1L", ",", "Z1R", ",", "Z1UP", ",", "Z1DN", ",", "Z1RL", ",", "Z1RR", ",", "(Switches)", ",", "Z1S1", ",", "Z1S2", ",", "(ZIL2)", ",", "(Accel)", ",", "Z2PX", ",", "Z2PY", ",", "Z2PR", ",", "Z2AX", ",", "Z2AY", ",", "Z2AZ", ",", "Z2GX", ",", "Z2GY", ",", "Z2GZ", ",", "(Triggers)", ",", "Z2L", ",", "Z2R", ",", "Z2UP", ",", "Z2DN", ",", "Z2RL", ",", "Z2RR", ",", "(Switches)", ",", "Z2S1", ",", "Z2S2", ",", "(ZIL3)", ",", "(Accel)", ",", "Z3PX", ",", "Z3PY", ",", "Z3PR", ",", "Z3AX", ",", "Z3AY", ",", "Z3AZ", ",", "Z3GX", ",", "Z3GY", ",", "Z3GZ", ",", "(Triggers)", ",", "Z3L", ",", "Z3R", ",", "Z3UP", ",", "Z3DN", ",", "Z3RL", ",", "Z3RR", ",", "(Switches)", ",", "Z3S1", ",", "Z3S2", ",", "(ZIL4)", ",", "(Accel)", ",", "Z4PX", ",", "Z4PY", ",", "Z4PR", ",", "Z4AX", ",", "Z4AY", ",", "Z4AZ", ",", "Z4GX", ",", "Z4GY", ",", "Z4GZ", ",", "(Triggers)", ",", "Z4L", ",", "Z4R", ",", "Z4UP", ",", "Z4DN", ",", "Z4RL", ",", "Z4RR", ",", "(Switches)", ",", "Z4S1", ",", "Z4S2" ],
+					"items" : [ "Off", ",", "(KARLAX)", ",", "(Pistons)", ",", "P1G", ",", "P2G", ",", "P3G", ",", "P4G", ",", "P1D", ",", "P2D", ",", "P3D", ",", "P4D", ",", "(Keys)", ",", "T1G", ",", "T2G", ",", "T3G", ",", "T4G", ",", "T5G", ",", "T1D", ",", "T2D", ",", "T3D", ",", "T4D", ",", "T5D", ",", "(Axis)", ",", "AXE", ",", "AB1", ",", "AB2", ",", "(Switches)", ",", "S1G", ",", "S2G", ",", "S3G", ",", "S4G", ",", "S1D", ",", "S2D", ",", "S3D", ",", "S4D", ",", "(Back Switches)", ",", "B1G", ",", "B2G", ",", "B3G", ",", "B4G", ",", "B5G", ",", "B1D", ",", "B2D", ",", "B3D", ",", "B4D", ",", "(Pitch&Roll)", ",", "APT", ",", "ARL", ",", "(Translations)", ",", "ADN", ",", "AFU", ",", "AFD", ",", "ALD", ",", "ARD", ",", "ARV", ",", "ADX", ",", "ADY", ",", "ADZ", ",", "(Ctrl_seq)", ",", "CS1", ",", "CS2", ",", "CS3", ",", "CS4", ",", "(Ctrl+-)", ",", "ID1", ",", "ID2", ",", "(Orientation)", ",", "OR1", ",", "OR2", ",", "OR3", ",", "OR4", ",", "OR5", ",", "OR6", ",", "(ZIL1)", ",", "(Accel)", ",", "Z1PX", ",", "Z1PY", ",", "Z1PR", ",", "Z1AX", ",", "Z1AY", ",", "Z1AZ", ",", "Z1GX", ",", "Z1GY", ",", "Z1GZ", ",", "(Triggers)", ",", "Z1L", ",", "Z1R", ",", "Z1UP", ",", "Z1DN", ",", "Z1RL", ",", "Z1RR", ",", "(Switches)", ",", "Z1S1", ",", "Z1S2", ",", "(ZIL2)", ",", "(Accel)", ",", "Z2PX", ",", "Z2PY", ",", "Z2PR", ",", "Z2AX", ",", "Z2AY", ",", "Z2AZ", ",", "Z2GX", ",", "Z2GY", ",", "Z2GZ", ",", "(Triggers)", ",", "Z2L", ",", "Z2R", ",", "Z2UP", ",", "Z2DN", ",", "Z2RL", ",", "Z2RR", ",", "(Switches)", ",", "Z2S1", ",", "Z2S2", ",", "(ZIL3)", ",", "(Accel)", ",", "Z3PX", ",", "Z3PY", ",", "Z3PR", ",", "Z3AX", ",", "Z3AY", ",", "Z3AZ", ",", "Z3GX", ",", "Z3GY", ",", "Z3GZ", ",", "(Triggers)", ",", "Z3L", ",", "Z3R", ",", "Z3UP", ",", "Z3DN", ",", "Z3RL", ",", "Z3RR", ",", "(Switches)", ",", "Z3S1", ",", "Z3S2", ",", "(ZIL4)", ",", "(Accel)", ",", "Z4PX", ",", "Z4PY", ",", "Z4PR", ",", "Z4AX", ",", "Z4AY", ",", "Z4AZ", ",", "Z4GX", ",", "Z4GY", ",", "Z4GZ", ",", "(Triggers)", ",", "Z4L", ",", "Z4R", ",", "Z4UP", ",", "Z4DN", ",", "Z4RL", ",", "Z4RR", ",", "(Switches)", ",", "Z4S1", ",", "Z4S2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1736,11 +1736,11 @@
 					"id" : "obj-56",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "int" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "int", "bang" ],
 					"patching_rect" : [ 4.0, 574.0, 129.0, 22.0 ],
 					"style" : "",
-					"text" : "t i i"
+					"text" : "t i i b"
 				}
 
 			}
@@ -3811,6 +3811,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-108", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-56", 2 ]
 				}
 
 			}
