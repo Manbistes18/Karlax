@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
+			"minor" : 3,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 444.0, 1375.0, 1137.0, 695.0 ],
+		"rect" : [ 159.0, 226.0, 1156.0, 732.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -38,6 +38,35 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-563",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3101.0, 667.0, 128.0, 22.0 ],
+					"style" : "",
+					"text" : "fill 1., apply hanning"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 1.0, 0.611765, 0.611765, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-561",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 3101.0, 635.0, 74.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-559",
 					"linecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1479,22 +1508,6 @@
 					"patching_rect" : [ 1170.0, 549.0, 163.0, 33.0 ],
 					"style" : "",
 					"text" : "dummy_pluginst.vst n'est plus utilisé"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 1.0, 0.611765, 0.611765, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-479",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2593.0, 672.0, 114.0, 22.0 ],
-					"style" : "",
-					"text" : "loadmess parallel 1"
 				}
 
 			}
@@ -3296,7 +3309,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
+							"minor" : 3,
 							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -6862,7 +6875,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 2722.0, 682.0, 178.0, 35.0 ],
 					"style" : "",
-					"text" : "poly~ cm-poly_grain 4 args #1 3"
+					"text" : "poly~ cm-poly_grain 4 args #1 3 @parallel 1"
 				}
 
 			}
@@ -6905,9 +6918,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 3048.0, 644.0, 153.0, 22.0 ],
+					"patching_rect" : [ 3101.0, 695.0, 117.0, 22.0 ],
 					"style" : "",
-					"text" : "buffer~ wind hanning.aif"
+					"text" : "buffer~ wind 1000"
 				}
 
 			}
@@ -8671,7 +8684,7 @@
 					"autopopulate" : 1,
 					"depth" : 1,
 					"id" : "obj-420",
-					"items" : [ "Audio Damage", ",", "Audio Damage/BigSeq.vst", ",", "audiomux effect.vst", ",", "audiomux generator.vst", ",", "BIAS Freq-4.vst", ",", "BIAS Sqweez 1.1.vst", ",", "BIAS Vbox 2.5.vst", ",", "Elektron Analog Four.vst", ",", "Elektron Analog Keys.vst", ",", "Elektron Analog Rytm.vst", ",", "Falcon.vst", ",", "impOSCarOSX.vst", ",", "iZotope Iris.vst", ",", "KORG", ",", "KORG/M1.vst", ",", "KORG/MDE-X.vst", ",", "KORG/MonoPoly.vst", ",", "KORG/MS-20.vst", ",", "KORG/MS-20FX.vst", ",", "KORG/Polysix.vst", ",", "KORG/WAVESTATION.vst", ",", "mda Universal", ",", "mda Universal/mda Ambience.vst", ",", "mda Universal/mda Bandisto.vst", ",", "mda Universal/mda BeatBox.vst", ",", "mda Universal/mda Combo.vst", ",", "mda Universal/mda De-ess.vst", ",", "mda Universal/mda Degrade.vst", ",", "mda Universal/mda Delay.vst", ",", "mda Universal/mda Detune.vst", ",", "mda Universal/mda Dither.vst", ",", "mda Universal/mda DubDelay.vst", ",", "mda Universal/mda Dynamics.vst", ",", "mda Universal/mda Image.vst", ",", "mda Universal/mda Leslie.vst", ",", "mda Universal/mda Limiter.vst", ",", "mda Universal/mda Loudness.vst", ",", "mda Universal/mda MultiBand.vst", ",", "mda Universal/mda Overdrive.vst", ",", "mda Universal/mda RePsycho!.vst", ",", "mda Universal/mda RezFilter.vst", ",", "mda Universal/mda RingMod.vst", ",", "mda Universal/mda RoundPan.vst", ",", "mda Universal/mda Shepard.vst", ",", "mda Universal/mda Splitter.vst", ",", "mda Universal/mda Stereo.vst", ",", "mda Universal/mda SubBass.vst", ",", "mda Universal/mda Talkbox.vst", ",", "mda Universal/mda TestTone.vst", ",", "mda Universal/mda ThruZero.vst", ",", "mda Universal/mda Tracker.vst", ",", "mda Universal/mda Transient.vst", ",", "mda Universal/mda VocInput.vst", ",", "mda Universal/mda Vocoder.vst", ",", "MTron.vst", ",", "Omnisphere.vst", ",", "Pianoteq.vst", ",", "Powered Plug-Ins", ",", "Powered Plug-Ins/Icon\r", ",", "Powered Plug-Ins/Mono", ",", "Powered Plug-Ins/UAD 4K Buss Compressor.vst", ",", "Powered Plug-Ins/UAD 4K Channel Strip.vst", ",", "Powered Plug-Ins/UAD AKG BX 20.vst", ",", "Powered Plug-Ins/UAD Ampeg SVT3Pro.vst", ",", "Powered Plug-Ins/UAD Ampeg SVTVR.vst", ",", "Powered Plug-Ins/UAD Ampex ATR-102.vst", ",", "Powered Plug-Ins/UAD AMS RMX16.vst", ",", "Powered Plug-Ins/UAD API 550A.vst", ",", "Powered Plug-Ins/UAD API 560.vst", ",", "Powered Plug-Ins/UAD API Vision Channel Strip.vst", ",", "Powered Plug-Ins/UAD Bermuda Triangle.vst", ",", "Powered Plug-Ins/UAD bx_digital V2 Mono.vst", ",", "Powered Plug-Ins/UAD bx_digital V2.vst", ",", "Powered Plug-Ins/UAD bx_digital V3 mix.vst", ",", "Powered Plug-Ins/UAD bx_digital V3.vst", ",", "Powered Plug-Ins/UAD bx_refinement.vst", ",", "Powered Plug-Ins/UAD bx_saturator V2.vst", ",", "Powered Plug-Ins/UAD bx_tuner.vst", ",", "Powered Plug-Ins/UAD Cambridge.vst", ",", "Powered Plug-Ins/UAD Chandler GAV19T.vst", ",", "Powered Plug-Ins/UAD Cooper Time Cube.vst", ",", "Powered Plug-Ins/UAD CS-1.vst", ",", "Powered Plug-Ins/UAD Dangerous BAX EQ Master.vst", ",", "Powered Plug-Ins/UAD Dangerous BAX EQ Mix.vst", ",", "Powered Plug-Ins/UAD dbx 160.vst", ",", "Powered Plug-Ins/UAD DreamVerb.vst", ",", "Powered Plug-Ins/UAD EL7 FATSO Jr.vst", ",", "Powered Plug-Ins/UAD EL7 FATSO Sr.vst", ",", "Powered Plug-Ins/UAD elysia alpha master.vst", ",", "Powered Plug-Ins/UAD elysia alpha mix.vst", ",", "Powered Plug-Ins/UAD elysia mpressor.vst", ",", "Powered Plug-Ins/UAD EMT 140.vst", ",", "Powered Plug-Ins/UAD EMT 250.vst", ",", "Powered Plug-Ins/UAD ENGL E646 VS.vst", ",", "Powered Plug-Ins/UAD ENGL E765 RT.vst", ",", "Powered Plug-Ins/UAD EP-34 Tape Echo.vst", ",", "Powered Plug-Ins/UAD Eventide H910 Harmonizer.vst", ",", "Powered Plug-Ins/UAD Fairchild 660.vst", ",", "Powered Plug-Ins/UAD Fairchild 670 Legacy.vst", ",", "Powered Plug-Ins/UAD Fairchild 670.vst", ",", "Powered Plug-Ins/UAD Friedman BE100.vst", ",", "Powered Plug-Ins/UAD Friedman DS40.vst", ",", "Powered Plug-Ins/UAD Harrison 32C SE.vst", ",", "Powered Plug-Ins/UAD Harrison 32C.vst", ",", "Powered Plug-Ins/UAD Helios 69.vst", ",", "Powered Plug-Ins/UAD Ibanez Tube Screamer TS808.vst", ",", "Powered Plug-Ins/UAD LA3A.vst", ",", "Powered Plug-Ins/UAD Lexicon 224.vst", ",", "Powered Plug-Ins/UAD Little Labs IBP.vst", ",", "Powered Plug-Ins/UAD Little Labs VOG.vst", ",", "Powered Plug-Ins/UAD Maag EQ4.vst", ",", "Powered Plug-Ins/UAD Manley Massive Passive MST.vst", ",", "Powered Plug-Ins/UAD Manley Massive Passive.vst", ",", "Powered Plug-Ins/UAD Manley Variable Mu.vst", ",", "Powered Plug-Ins/UAD Marshall Bluesbreaker 1962.vst", ",", "Powered Plug-Ins/UAD Marshall JMP 2203.vst", ",", "Powered Plug-Ins/UAD Marshall Plexi Super Lead 1959.vst", ",", "Powered Plug-Ins/UAD Marshall Silver Jubilee 2555.vst", ",", "Powered Plug-Ins/UAD MDWEQ5-3B.vst", ",", "Powered Plug-Ins/UAD MDWEQ5-5B.vst", ",", "Powered Plug-Ins/UAD Millennia NSEQ-2.vst", ",", "Powered Plug-Ins/UAD Moog Filter SE.vst", ",", "Powered Plug-Ins/UAD Moog Filter.vst", ",", "Powered Plug-Ins/UAD MXR Flanger-Doubler.vst", ",", "Powered Plug-Ins/UAD Neve 1073 Legacy.vst", ",", "Powered Plug-Ins/UAD Neve 1073.vst", ",", "Powered Plug-Ins/UAD Neve 1073SE Legacy.vst", ",", "Powered Plug-Ins/UAD Neve 1081.vst", ",", "Powered Plug-Ins/UAD Neve 1081SE.vst", ",", "Powered Plug-Ins/UAD Neve 31102.vst", ",", "Powered Plug-Ins/UAD Neve 31102SE.vst", ",", "Powered Plug-Ins/UAD Neve 33609.vst", ",", "Powered Plug-Ins/UAD Neve 33609SE.vst", ",", "Powered Plug-Ins/UAD Neve 88RS Legacy.vst", ",", "Powered Plug-Ins/UAD Neve 88RS.vst", ",", "Powered Plug-Ins/UAD Ocean Way Studios.vst", ",", "Powered Plug-Ins/UAD Oxford Envolution.vst", ",", "Powered Plug-Ins/UAD Oxford EQ.vst", ",", "Powered Plug-Ins/UAD Oxford Inflator.vst", ",", "Powered Plug-Ins/UAD Oxide Tape.vst", ",", "Powered Plug-Ins/UAD Precision Buss Compressor.vst", ",", "Powered Plug-Ins/UAD Precision Channel Strip.vst", ",", "Powered Plug-Ins/UAD Precision De-Esser.vst", ",", "Powered Plug-Ins/UAD Precision Delay Mod L.vst", ",", "Powered Plug-Ins/UAD Precision Delay Mod.vst", ",", "Powered Plug-Ins/UAD Precision Enhancer Hz.vst", ",", "Powered Plug-Ins/UAD Precision Enhancer kHz.vst", ",", "Powered Plug-Ins/UAD Precision Equalizer.vst", ",", "Powered Plug-Ins/UAD Precision K-Stereo.vst", ",", "Powered Plug-Ins/UAD Precision Limiter.vst", ",", "Powered Plug-Ins/UAD Precision Maximizer.vst", ",", "Powered Plug-Ins/UAD Precision Multiband.vst", ",", "Powered Plug-Ins/UAD Precision Reflection Engine.vst", ",", "Powered Plug-Ins/UAD Pultec EQP-1A Legacy.vst", ",", "Powered Plug-Ins/UAD Pultec EQP-1A.vst", ",", "Powered Plug-Ins/UAD Pultec HLF-3C.vst", ",", "Powered Plug-Ins/UAD Pultec MEQ-5.vst", ",", "Powered Plug-Ins/UAD Pultec-Pro Legacy.vst", ",", "Powered Plug-Ins/UAD Raw.vst", ",", "Powered Plug-Ins/UAD RealVerb-Pro.vst", ",", "Powered Plug-Ins/UAD Roland CE-1.vst", ",", "Powered Plug-Ins/UAD Roland Dimension D.vst", ",", "Powered Plug-Ins/UAD Roland RE-201.vst", ",", "Powered Plug-Ins/UAD Shadow Hills Mastering Compressor.vst", ",", "Powered Plug-Ins/UAD Softube Amp Room Half-Stack.vst", ",", "Powered Plug-Ins/UAD Softube Bass Amp Room 8x10.vst", ",", "Powered Plug-Ins/UAD Softube Bass Amp Room.vst", ",", "Powered Plug-Ins/UAD Softube Metal Amp Room.vst", ",", "Powered Plug-Ins/UAD Softube Vintage Amp Room.vst", ",", "Powered Plug-Ins/UAD Sound Machine Wood Works.vst", ",", "Powered Plug-Ins/UAD SPL Transient Designer.vst", ",", "Powered Plug-Ins/UAD SPL TwinTube.vst", ",", "Powered Plug-Ins/UAD SPL Vitalizer MK2-T.vst", ",", "Powered Plug-Ins/UAD SSL E Channel Strip.vst", ",", "Powered Plug-Ins/UAD SSL G Bus Compressor.vst", ",", "Powered Plug-Ins/UAD Studer A800.vst", ",", "Powered Plug-Ins/UAD Summit Audio TLA-100A.vst", ",", "Powered Plug-Ins/UAD Teletronix LA-2.vst", ",", "Powered Plug-Ins/UAD Teletronix LA-2A Gray.vst", ",", "Powered Plug-Ins/UAD Teletronix LA-2A Legacy.vst", ",", "Powered Plug-Ins/UAD Teletronix LA-2A Silver.vst", ",", "Powered Plug-Ins/UAD Thermionic Culture Vulture.vst", ",", "Powered Plug-Ins/UAD Tonelux Tilt Live.vst", ",", "Powered Plug-Ins/UAD Tonelux Tilt.vst", ",", "Powered Plug-Ins/UAD Trident A-Range.vst", ",", "Powered Plug-Ins/UAD Tube-Tech CL 1B.vst", ",", "Powered Plug-Ins/UAD Tube-Tech ME 1B.vst", ",", "Powered Plug-Ins/UAD Tube-Tech PE 1C.vst", ",", "Powered Plug-Ins/UAD UA 1176 Rev A.vst", ",", "Powered Plug-Ins/UAD UA 1176AE.vst", ",", "Powered Plug-Ins/UAD UA 1176LN Legacy.vst", ",", "Powered Plug-Ins/UAD UA 1176LN Rev E.vst", ",", "Powered Plug-Ins/UAD UA 1176SE Legacy.vst", ",", "Powered Plug-Ins/UAD UA 610-A.vst", ",", "Powered Plug-Ins/UAD UA 610-B.vst", ",", "Powered Plug-Ins/UAD Valley People Dyna-mite.vst", ",", "Powered Plug-Ins/UAD Vertigo VSC-2.vst", ",", "Powered Plug-Ins/UAD Vertigo VSM-3.vst", ",", "Reaktor 6 FX.vst", ",", "Reaktor 6.vst", ",", "Reaktor5 16out.vst", ",", "Reaktor5 FX 16x16.vst", ",", "Reaktor5 FX 2x8.vst", ",", "Reaktor5 FX.vst", ",", "Reaktor5 Surround.vst", ",", "Reaktor5.vst", ",", "UVIWorkstationVST.vst", ",", "Waldorf", ",", "Waldorf/Attack.vst", ",", "Waldorf/D-Pole.vst", ",", "Waldorf/PPG Wave 2.V.vst" ],
+					"items" : [ "Audio Damage", ",", "Audio Damage/BigSeq.vst", ",", "BIAS Freq-4.vst", ",", "BIAS Sqweez 1.1.vst", ",", "BIAS Vbox 2.5.vst", ",", "Elektron Analog Four.vst", ",", "Elektron Analog Keys.vst", ",", "Elektron Analog Rytm.vst", ",", "Falcon.vst", ",", "impOSCarOSX.vst", ",", "iZotope Iris.vst", ",", "KORG", ",", "KORG/M1.vst", ",", "KORG/MDE-X.vst", ",", "KORG/MonoPoly.vst", ",", "KORG/MS-20.vst", ",", "KORG/MS-20FX.vst", ",", "KORG/Polysix.vst", ",", "KORG/WAVESTATION.vst", ",", "mda Universal", ",", "mda Universal/mda Ambience.vst", ",", "mda Universal/mda Bandisto.vst", ",", "mda Universal/mda BeatBox.vst", ",", "mda Universal/mda Combo.vst", ",", "mda Universal/mda De-ess.vst", ",", "mda Universal/mda Degrade.vst", ",", "mda Universal/mda Delay.vst", ",", "mda Universal/mda Detune.vst", ",", "mda Universal/mda Dither.vst", ",", "mda Universal/mda DubDelay.vst", ",", "mda Universal/mda Dynamics.vst", ",", "mda Universal/mda Image.vst", ",", "mda Universal/mda Leslie.vst", ",", "mda Universal/mda Limiter.vst", ",", "mda Universal/mda Loudness.vst", ",", "mda Universal/mda MultiBand.vst", ",", "mda Universal/mda Overdrive.vst", ",", "mda Universal/mda RePsycho!.vst", ",", "mda Universal/mda RezFilter.vst", ",", "mda Universal/mda RingMod.vst", ",", "mda Universal/mda RoundPan.vst", ",", "mda Universal/mda Shepard.vst", ",", "mda Universal/mda Splitter.vst", ",", "mda Universal/mda Stereo.vst", ",", "mda Universal/mda SubBass.vst", ",", "mda Universal/mda Talkbox.vst", ",", "mda Universal/mda TestTone.vst", ",", "mda Universal/mda ThruZero.vst", ",", "mda Universal/mda Tracker.vst", ",", "mda Universal/mda Transient.vst", ",", "mda Universal/mda VocInput.vst", ",", "mda Universal/mda Vocoder.vst", ",", "MTron.vst", ",", "Omnisphere.vst", ",", "Pianoteq.vst", ",", "Powered Plug-Ins", ",", "Powered Plug-Ins/Icon\r", ",", "Powered Plug-Ins/Mono", ",", "Powered Plug-Ins/UAD 4K Buss Compressor.vst", ",", "Powered Plug-Ins/UAD 4K Channel Strip.vst", ",", "Powered Plug-Ins/UAD AKG BX 20.vst", ",", "Powered Plug-Ins/UAD Ampeg SVT3Pro.vst", ",", "Powered Plug-Ins/UAD Ampeg SVTVR.vst", ",", "Powered Plug-Ins/UAD Ampex ATR-102.vst", ",", "Powered Plug-Ins/UAD AMS RMX16.vst", ",", "Powered Plug-Ins/UAD API 550A.vst", ",", "Powered Plug-Ins/UAD API 560.vst", ",", "Powered Plug-Ins/UAD API Vision Channel Strip.vst", ",", "Powered Plug-Ins/UAD Bermuda Triangle.vst", ",", "Powered Plug-Ins/UAD bx_digital V2 Mono.vst", ",", "Powered Plug-Ins/UAD bx_digital V2.vst", ",", "Powered Plug-Ins/UAD bx_digital V3 mix.vst", ",", "Powered Plug-Ins/UAD bx_digital V3.vst", ",", "Powered Plug-Ins/UAD bx_refinement.vst", ",", "Powered Plug-Ins/UAD bx_saturator V2.vst", ",", "Powered Plug-Ins/UAD bx_tuner.vst", ",", "Powered Plug-Ins/UAD Cambridge.vst", ",", "Powered Plug-Ins/UAD Chandler GAV19T.vst", ",", "Powered Plug-Ins/UAD Chandler Limited Curve Bender.vst", ",", "Powered Plug-Ins/UAD Cooper Time Cube.vst", ",", "Powered Plug-Ins/UAD CS-1.vst", ",", "Powered Plug-Ins/UAD Dangerous BAX EQ Master.vst", ",", "Powered Plug-Ins/UAD Dangerous BAX EQ Mix.vst", ",", "Powered Plug-Ins/UAD dbx 160.vst", ",", "Powered Plug-Ins/UAD DreamVerb.vst", ",", "Powered Plug-Ins/UAD EL7 FATSO Jr.vst", ",", "Powered Plug-Ins/UAD EL7 FATSO Sr.vst", ",", "Powered Plug-Ins/UAD elysia alpha master.vst", ",", "Powered Plug-Ins/UAD elysia alpha mix.vst", ",", "Powered Plug-Ins/UAD elysia mpressor.vst", ",", "Powered Plug-Ins/UAD EMT 140.vst", ",", "Powered Plug-Ins/UAD EMT 250.vst", ",", "Powered Plug-Ins/UAD ENGL E646 VS.vst", ",", "Powered Plug-Ins/UAD ENGL E765 RT.vst", ",", "Powered Plug-Ins/UAD EP-34 Tape Echo.vst", ",", "Powered Plug-Ins/UAD Eventide H910 Harmonizer.vst", ",", "Powered Plug-Ins/UAD Fairchild 660.vst", ",", "Powered Plug-Ins/UAD Fairchild 670 Legacy.vst", ",", "Powered Plug-Ins/UAD Fairchild 670.vst", ",", "Powered Plug-Ins/UAD Fender 55 Tweed Deluxe.vst", ",", "Powered Plug-Ins/UAD Friedman BE100.vst", ",", "Powered Plug-Ins/UAD Friedman DS40.vst", ",", "Powered Plug-Ins/UAD Harrison 32C SE.vst", ",", "Powered Plug-Ins/UAD Harrison 32C.vst", ",", "Powered Plug-Ins/UAD Helios 69.vst", ",", "Powered Plug-Ins/UAD Ibanez Tube Screamer TS808.vst", ",", "Powered Plug-Ins/UAD LA3A.vst", ",", "Powered Plug-Ins/UAD Lexicon 224.vst", ",", "Powered Plug-Ins/UAD Little Labs IBP.vst", ",", "Powered Plug-Ins/UAD Little Labs VOG.vst", ",", "Powered Plug-Ins/UAD Maag EQ4.vst", ",", "Powered Plug-Ins/UAD Manley Massive Passive MST.vst", ",", "Powered Plug-Ins/UAD Manley Massive Passive.vst", ",", "Powered Plug-Ins/UAD Manley Variable Mu.vst", ",", "Powered Plug-Ins/UAD Marshall Bluesbreaker 1962.vst", ",", "Powered Plug-Ins/UAD Marshall JMP 2203.vst", ",", "Powered Plug-Ins/UAD Marshall Plexi Super Lead 1959.vst", ",", "Powered Plug-Ins/UAD Marshall Silver Jubilee 2555.vst", ",", "Powered Plug-Ins/UAD MDWEQ5-3B.vst", ",", "Powered Plug-Ins/UAD MDWEQ5-5B.vst", ",", "Powered Plug-Ins/UAD Millennia NSEQ-2.vst", ",", "Powered Plug-Ins/UAD Moog Filter SE.vst", ",", "Powered Plug-Ins/UAD Moog Filter.vst", ",", "Powered Plug-Ins/UAD MXR Flanger-Doubler.vst", ",", "Powered Plug-Ins/UAD Neve 1073 Legacy.vst", ",", "Powered Plug-Ins/UAD Neve 1073.vst", ",", "Powered Plug-Ins/UAD Neve 1073SE Legacy.vst", ",", "Powered Plug-Ins/UAD Neve 1081.vst", ",", "Powered Plug-Ins/UAD Neve 1081SE.vst", ",", "Powered Plug-Ins/UAD Neve 31102.vst", ",", "Powered Plug-Ins/UAD Neve 31102SE.vst", ",", "Powered Plug-Ins/UAD Neve 33609.vst", ",", "Powered Plug-Ins/UAD Neve 33609SE.vst", ",", "Powered Plug-Ins/UAD Neve 88RS Legacy.vst", ",", "Powered Plug-Ins/UAD Neve 88RS.vst", ",", "Powered Plug-Ins/UAD Ocean Way Studios.vst", ",", "Powered Plug-Ins/UAD Oxford Envolution.vst", ",", "Powered Plug-Ins/UAD Oxford EQ.vst", ",", "Powered Plug-Ins/UAD Oxford Inflator.vst", ",", "Powered Plug-Ins/UAD Oxford Limiter.vst", ",", "Powered Plug-Ins/UAD Oxide Tape.vst", ",", "Powered Plug-Ins/UAD Precision Buss Compressor.vst", ",", "Powered Plug-Ins/UAD Precision Channel Strip.vst", ",", "Powered Plug-Ins/UAD Precision De-Esser.vst", ",", "Powered Plug-Ins/UAD Precision Delay Mod L.vst", ",", "Powered Plug-Ins/UAD Precision Delay Mod.vst", ",", "Powered Plug-Ins/UAD Precision Enhancer Hz.vst", ",", "Powered Plug-Ins/UAD Precision Enhancer kHz.vst", ",", "Powered Plug-Ins/UAD Precision Equalizer.vst", ",", "Powered Plug-Ins/UAD Precision K-Stereo.vst", ",", "Powered Plug-Ins/UAD Precision Limiter.vst", ",", "Powered Plug-Ins/UAD Precision Maximizer.vst", ",", "Powered Plug-Ins/UAD Precision Multiband.vst", ",", "Powered Plug-Ins/UAD Precision Reflection Engine.vst", ",", "Powered Plug-Ins/UAD Pultec EQP-1A Legacy.vst", ",", "Powered Plug-Ins/UAD Pultec EQP-1A.vst", ",", "Powered Plug-Ins/UAD Pultec HLF-3C.vst", ",", "Powered Plug-Ins/UAD Pultec MEQ-5.vst", ",", "Powered Plug-Ins/UAD Pultec-Pro Legacy.vst", ",", "Powered Plug-Ins/UAD Raw.vst", ",", "Powered Plug-Ins/UAD RealVerb-Pro.vst", ",", "Powered Plug-Ins/UAD Roland CE-1.vst", ",", "Powered Plug-Ins/UAD Roland Dimension D.vst", ",", "Powered Plug-Ins/UAD Roland RE-201.vst", ",", "Powered Plug-Ins/UAD Shadow Hills Mastering Compressor.vst", ",", "Powered Plug-Ins/UAD Softube Amp Room Half-Stack.vst", ",", "Powered Plug-Ins/UAD Softube Bass Amp Room 8x10.vst", ",", "Powered Plug-Ins/UAD Softube Bass Amp Room.vst", ",", "Powered Plug-Ins/UAD Softube Metal Amp Room.vst", ",", "Powered Plug-Ins/UAD Softube Vintage Amp Room.vst", ",", "Powered Plug-Ins/UAD Sound Machine Wood Works.vst", ",", "Powered Plug-Ins/UAD SPL Transient Designer.vst", ",", "Powered Plug-Ins/UAD SPL TwinTube.vst", ",", "Powered Plug-Ins/UAD SPL Vitalizer MK2-T.vst", ",", "Powered Plug-Ins/UAD SSL E Channel Strip.vst", ",", "Powered Plug-Ins/UAD SSL G Bus Compressor.vst", ",", "Powered Plug-Ins/UAD Studer A800.vst", ",", "Powered Plug-Ins/UAD Summit Audio TLA-100A.vst", ",", "Powered Plug-Ins/UAD Teletronix LA-2.vst", ",", "Powered Plug-Ins/UAD Teletronix LA-2A Gray.vst", ",", "Powered Plug-Ins/UAD Teletronix LA-2A Legacy.vst", ",", "Powered Plug-Ins/UAD Teletronix LA-2A Silver.vst", ",", "Powered Plug-Ins/UAD Thermionic Culture Vulture.vst", ",", "Powered Plug-Ins/UAD Tonelux Tilt Live.vst", ",", "Powered Plug-Ins/UAD Tonelux Tilt.vst", ",", "Powered Plug-Ins/UAD Trident A-Range.vst", ",", "Powered Plug-Ins/UAD Tube-Tech CL 1B.vst", ",", "Powered Plug-Ins/UAD Tube-Tech ME 1B.vst", ",", "Powered Plug-Ins/UAD Tube-Tech PE 1C.vst", ",", "Powered Plug-Ins/UAD UA 1176 Rev A.vst", ",", "Powered Plug-Ins/UAD UA 1176AE.vst", ",", "Powered Plug-Ins/UAD UA 1176LN Legacy.vst", ",", "Powered Plug-Ins/UAD UA 1176LN Rev E.vst", ",", "Powered Plug-Ins/UAD UA 1176SE Legacy.vst", ",", "Powered Plug-Ins/UAD UA 610-A.vst", ",", "Powered Plug-Ins/UAD UA 610-B.vst", ",", "Powered Plug-Ins/UAD Valley People Dyna-mite.vst", ",", "Powered Plug-Ins/UAD Vertigo VSC-2.vst", ",", "Powered Plug-Ins/UAD Vertigo VSM-3.vst", ",", "Reaktor 6 FX.vst", ",", "Reaktor 6.vst", ",", "Reaktor5 16out.vst", ",", "Reaktor5 FX 16x16.vst", ",", "Reaktor5 FX 2x8.vst", ",", "Reaktor5 FX.vst", ",", "Reaktor5 Surround.vst", ",", "Reaktor5.vst", ",", "studiomux effect.vst", ",", "studiomux generator.vst", ",", "UVIWorkstationVST.vst", ",", "Vinyl.vst", ",", "Waldorf", ",", "Waldorf/Attack.vst", ",", "Waldorf/D-Pole.vst", ",", "Waldorf/PPG Wave 2.V.vst" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -13427,15 +13440,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-310", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-479", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-141", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -14207,6 +14211,24 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-563", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-561", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-313", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-563", 0 ]
 				}
 
 			}

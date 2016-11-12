@@ -1,5 +1,15 @@
 Karlax Audio Historique
 
+8-04-16 v 1.4
+
+- Version à partir de Max 7
+- ajout du stretching dans le module sampler
+- ATTENTION najo.multipan ne marche quand mode 32 bit !!!
+
+IL FAUT COCHER L’OPTION DANS LES INFOS DE L’APP CREER PAR MAX !!!
+
+
+
 16-11-15 v1.3
  
 bug
@@ -13,9 +23,9 @@ bug
 - Mise à jour de la partie graphique OK
 - record module réglé sur P1G par défaut OK
 
-- bug clic souris ON/OFF sur générateur "samples"
+- bug clic souris ON/OFF sur générateur "samples" OK
 
-- ajouter vu-mètre entrée micro sur Record buffer
+- ajouter vu-mètre entrée micro sur Record buffer OK
 - abaisser les valeurs de tempo à 0 si possible ou 1 (le plus lent possible) sur Ctrl Seq - N Seq - generator loop - FFT delay - pan enveloppe.
 
 - ajouter un moteur gestuel type séquenceur percu à intégrer dans la matrice MIDI avec commande sur 3 axes X,Y,Z adapté au Zil:
