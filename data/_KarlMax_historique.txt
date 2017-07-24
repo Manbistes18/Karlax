@@ -1,5 +1,27 @@
 Karlax Audio Historique
 
+
+22-07-17
+
+Note Rémi pour v 1.5
+
+MIDI file: ON/OFF ne fonctionne pas au clic souris
+MIDI file: le mode start/stop fonctionne comme un mode step by step
+MIDI file: velocité from carl = vélocité tout court
+MIDI file: Affichage partition ou piano roll possible?
+MIDI file: identifier et insérer des bons VST-I gratuits
+MIDI file: ctrl midi sur restart
+
+Dans la liste des contrôles MIDI une faute de frappe s'est glissée: Z1PR au lieu de Z1PZ (pareil sur Z2, Z3, Z4)OK
+
+Séquenceurs: 
+-Peut-on élargir la plage des séquenceurs pour attaquer les samplers. Ou bien sur les 4 séquenceurs existant en réserver 2 dédiés aux samplers?
+
+Interpolateurs rythmiques:
+- Peut-on rajouter 4 séquenceurs séparés (rythm seq comme les 4 Notes seq) à rajouter sur la Midi Note Matrix, et au choix de l'utilisateur d'interpoler 1&2, 1,2&3, 1,2,3&4?
+
+
+
 8-04-16 v 1.4
 
 - Version à partir de Max 7
