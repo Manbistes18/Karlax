@@ -3,23 +3,38 @@ Karlax Audio Historique
 
 22-07-17
 
+
+
 Note Rémi pour v 1.5
 
-MIDI file: ON/OFF ne fonctionne pas au clic souris
+Retailler fenêtre seq MIDI
+
+MIDI file: ON/OFF ne fonctionne pas au clic souris OK
 MIDI file: le mode start/stop fonctionne comme un mode step by step
-MIDI file: velocité from carl = vélocité tout court
-MIDI file: Affichage partition ou piano roll possible?
+MIDI file: velocité from carl = vélocité tout court OK
+MIDI file: Affichage partition ou piano roll possible? NON
+
 MIDI file: identifier et insérer des bons VST-I gratuits
+
 MIDI file: ctrl midi sur restart
 
-Dans la liste des contrôles MIDI une faute de frappe s'est glissée: Z1PR au lieu de Z1PZ (pareil sur Z2, Z3, Z4)OK
-
-Séquenceurs: 
--Peut-on élargir la plage des séquenceurs pour attaquer les samplers. Ou bien sur les 4 séquenceurs existant en réserver 2 dédiés aux samplers?
-
 Interpolateurs rythmiques:
-- Peut-on rajouter 4 séquenceurs séparés (rythm seq comme les 4 Notes seq) à rajouter sur la Midi Note Matrix, et au choix de l'utilisateur d'interpoler 1&2, 1,2&3, 1,2,3&4?
 
+- ajouter vélocité aléatoire au dessus ou au dessous pilotable en MIDI OK AJOUTER CLIP 1 127 !!!
+- gel des paramètres ??? Comment geler les patterns —> chgt de presets
+- sélectionner chaque séquence à la souris OK
+
+
+Global tempo On/off
+
+- les séquences s’arrêtent quand chgt de preset en mode global tempo off ; mieux gérer on off des séquences OK A TESTER
+
+
+AJOUTER
+
+- Magnéto 8 pistes (avec fade entre deux fichiers) ; il existe déjà sans les fades ! OK
+- Ajouter 4 Ctrl Seq (5-8) OK A TESTER
+- off sur les ports MIDI OK
 
 
 8-04-16 v 1.4
