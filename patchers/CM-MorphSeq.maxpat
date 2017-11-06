@@ -39,13 +39,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-211",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 750.0, 1103.0, 63.5, 22.0 ],
+					"style" : "",
+					"text" : "clip 1 127"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-228",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 637.5, 777.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 637.0, 777.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "1"
 				}
@@ -2622,7 +2634,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1119.0, 368.0, 243.0, 20.0 ],
-					"restore" : [ 0, 0, 1, 1, 0, 1, 2, 0, 1, 3, 0, 1, 4, 0, 1, 5, 0, 1, 6, 0, 1 ],
+					"restore" : [ 0, 0, 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2644,7 +2656,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1119.0, 343.0, 243.0, 20.0 ],
-					"restore" : [ 0, 0, 1, 2, 0, 1, 4, 0, 1, 6, 0, 1 ],
+					"restore" : [ 0, 0, 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2666,7 +2678,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1174.0, 291.0, 288.0, 20.0 ],
-					"restore" : [ 0, 5, 1, 2, 3, 1, 4, 4, 1, 4, 5, 1, 5, 5, 1, 6, 3, 1 ],
+					"restore" : [ 0, 0, 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2688,7 +2700,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1119.0, 316.0, 288.0, 20.0 ],
-					"restore" : [ 0, 5, 1, 1, 5, 1, 3, 5, 1, 4, 2, 1, 4, 4, 1, 4, 5, 1, 6, 5, 1 ],
+					"restore" : [ 0, 0, 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2934,7 +2946,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 825.0, 358.0, 243.0, 20.0 ],
-					"restore" : [ 0, 0, 1, 4, 0, 1 ],
+					"restore" : [ 0, 0, 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -3637,7 +3649,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 825.0, 316.0, 288.0, 20.0 ],
-					"restore" : [ 0, 5, 1, 1, 3, 1, 1, 5, 1, 3, 3, 1, 4, 5, 1, 5, 3, 1 ],
+					"restore" : [ 0, 0, 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -3727,7 +3739,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 825.0, 274.0, 331.0, 20.0 ],
-					"restore" : [ 111 ],
+					"restore" : [ 127 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -3958,7 +3970,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-64",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -5068,7 +5080,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 57.0, 19.0, 114.0, 18.0 ],
 					"style" : "",
-					"text" : "Sequence Morph 1"
+					"text" : "#2"
 				}
 
 			}
@@ -5192,7 +5204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 812.0, 1103.0, 166.0, 20.0 ],
+					"patching_rect" : [ 829.0, 1103.0, 166.0, 20.0 ],
 					"style" : "",
 					"text" : "pvar note_length-BP"
 				}
@@ -6109,7 +6121,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-159", 1 ],
+					"destination" : [ "obj-211", 0 ],
 					"source" : [ "obj-194", 0 ]
 				}
 
@@ -6331,6 +6343,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-198", 1 ],
 					"source" : [ "obj-210", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-159", 1 ],
+					"source" : [ "obj-211", 0 ]
 				}
 
 			}
@@ -6918,7 +6937,86 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "CMNotesCell8.jpg",
+				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
+				"patcherrelativepath" : "../media",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "",
+				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "fold",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CMVelCell8.jpg",
+				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
+				"patcherrelativepath" : "../media",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CMOnOffCell8.jpg",
+				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/media",
+				"patcherrelativepath" : "../media",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cm-ctrl_sel-int.maxpat",
+				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "menu_items.coll.txt",
+				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/data",
+				"patcherrelativepath" : "../data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cm-item-check.maxpat",
+				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cm-ctrl_sel-conf.maxpat",
+				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sync_to_g-tempo.maxpat",
+				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "shift-matrix.maxpat",
+				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cm-ctrl_sel.maxpat",
+				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

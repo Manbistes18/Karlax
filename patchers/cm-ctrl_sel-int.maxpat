@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-152",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 36.0, 279.0, 129.0, 22.0 ],
+					"style" : "",
+					"text" : "r to_coll_menu_item"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -47,37 +60,6 @@
 					"patching_rect" : [ 462.0, 131.0, 50.0, 22.0 ],
 					"style" : "",
 					"text" : "clear"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "all", "clear" ],
-					"patching_rect" : [ 36.0, 264.0, 59.0, 22.0 ],
-					"style" : "",
-					"text" : "t all clear"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 1.0, 0.611765, 0.611765, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-22",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 36.0, 239.0, 60.0, 22.0 ],
-					"style" : "",
-					"text" : "loadbang"
 				}
 
 			}
@@ -464,7 +446,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 552.0, 276.0, 15.0, 15.0 ],
 					"style" : ""
 				}
@@ -509,8 +491,8 @@
 					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-32",
 					"maxclass" : "number",
-					"maximum" : 2000,
-					"minimum" : 10,
+					"maximum" : 32,
+					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -813,7 +795,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 238.0, 575.0, 244.0, 22.0 ],
-					"restore" : [ 100 ],
+					"restore" : [ 32 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -898,7 +880,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 532.0, 188.0, 271.0, 22.0 ],
-					"restore" : [ 2000 ],
+					"restore" : [ 32 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -920,7 +902,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 532.0, 165.0, 262.0, 22.0 ],
-					"restore" : [ 10 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -1244,7 +1226,7 @@
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
 					"id" : "obj-78",
-					"items" : "note_length",
+					"items" : "seq_length",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 2,
@@ -1268,8 +1250,8 @@
 					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-79",
 					"maxclass" : "number",
-					"maximum" : 2000,
-					"minimum" : 10,
+					"maximum" : 32,
+					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1308,8 +1290,8 @@
 					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-81",
 					"maxclass" : "number",
-					"maximum" : 2000,
-					"minimum" : 10,
+					"maximum" : 32,
+					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1338,7 +1320,7 @@
 					"fontface" : 1,
 					"fontsize" : 10.0,
 					"id" : "obj-82",
-					"items" : [ "Off", ",", "(KARLAX)", ",", "(Pistons)", ",", "P1G", ",", "P2G", ",", "P3G", ",", "P4G", ",", "P1D", ",", "P2D", ",", "P3D", ",", "P4D", ",", "(Keys)", ",", "T1G", ",", "T2G", ",", "T3G", ",", "T4G", ",", "T5G", ",", "T1D", ",", "T2D", ",", "T3D", ",", "T4D", ",", "T5D", ",", "(Axis)", ",", "AXE", ",", "AB1", ",", "AB2", ",", "(Switches)", ",", "S1G", ",", "S2G", ",", "S3G", ",", "S4G", ",", "S1D", ",", "S2D", ",", "S3D", ",", "S4D", ",", "(Back Switches)", ",", "B1G", ",", "B2G", ",", "B3G", ",", "B4G", ",", "B5G", ",", "B1D", ",", "B2D", ",", "B3D", ",", "B4D", ",", "(Pitch&Roll)", ",", "APT", ",", "ARL", ",", "(Translations)", ",", "ADN", ",", "AFU", ",", "AFD", ",", "ALD", ",", "ARD", ",", "ARV", ",", "ADX", ",", "ADY", ",", "ADZ", ",", "(Ctrl_seq)", ",", "CS1", ",", "CS2", ",", "CS3", ",", "CS4", ",", "(Ctrl+-)", ",", "ID1", ",", "ID2", ",", "(Orientation)", ",", "OR1", ",", "OR2", ",", "OR3", ",", "OR4", ",", "OR5", ",", "OR6", ",", "(ZIL1)", ",", "(Accel)", ",", "Z1PX", ",", "Z1PY", ",", "Z1PZ", ",", "Z1AX", ",", "Z1AY", ",", "Z1AZ", ",", "Z1GX", ",", "Z1GY", ",", "Z1GZ", ",", "(Triggers)", ",", "Z1L", ",", "Z1R", ",", "Z1UP", ",", "Z1DN", ",", "Z1RL", ",", "Z1RR", ",", "(Switches)", ",", "Z1S1", ",", "Z1S2", ",", "(ZIL2)", ",", "(Accel)", ",", "Z2PX", ",", "Z2PY", ",", "Z2PZ", ",", "Z2AX", ",", "Z2AY", ",", "Z2AZ", ",", "Z2GX", ",", "Z2GY", ",", "Z2GZ", ",", "(Triggers)", ",", "Z2L", ",", "Z2R", ",", "Z2UP", ",", "Z2DN", ",", "Z2RL", ",", "Z2RR", ",", "(Switches)", ",", "Z2S1", ",", "Z2S2", ",", "(ZIL3)", ",", "(Accel)", ",", "Z3PX", ",", "Z3PY", ",", "Z3PZ", ",", "Z3AX", ",", "Z3AY", ",", "Z3AZ", ",", "Z3GX", ",", "Z3GY", ",", "Z3GZ", ",", "(Triggers)", ",", "Z3L", ",", "Z3R", ",", "Z3UP", ",", "Z3DN", ",", "Z3RL", ",", "Z3RR", ",", "(Switches)", ",", "Z3S1", ",", "Z3S2", ",", "(ZIL4)", ",", "(Accel)", ",", "Z4PX", ",", "Z4PY", ",", "Z4PZ", ",", "Z4AX", ",", "Z4AY", ",", "Z4AZ", ",", "Z4GX", ",", "Z4GY", ",", "Z4GZ", ",", "(Triggers)", ",", "Z4L", ",", "Z4R", ",", "Z4UP", ",", "Z4DN", ",", "Z4RL", ",", "Z4RR", ",", "(Switches)", ",", "Z4S1", ",", "Z4S2" ],
+					"items" : [ "Off", ",", "(KARLAX)", ",", "(Pistons)", ",", "P1G", ",", "P2G", ",", "P3G", ",", "P4G", ",", "P1D", ",", "P2D", ",", "P3D", ",", "P4D", ",", "(Keys)", ",", "T1G", ",", "T2G", ",", "T3G", ",", "T4G", ",", "T5G", ",", "T1D", ",", "T2D", ",", "T3D", ",", "T4D", ",", "T5D", ",", "(Axis)", ",", "AXE", ",", "AB1", ",", "AB2", ",", "(Switches)", ",", "S1G", ",", "S2G", ",", "S3G", ",", "S4G", ",", "S1D", ",", "S2D", ",", "S3D", ",", "S4D", ",", "(Back Switches)", ",", "B1G", ",", "B2G", ",", "B3G", ",", "B4G", ",", "B5G", ",", "B1D", ",", "B2D", ",", "B3D", ",", "B4D", ",", "(Pitch&Roll)", ",", "APT", ",", "ARL", ",", "(Translations)", ",", "ADN", ",", "AFU", ",", "AFD", ",", "ALD", ",", "ARD", ",", "ARV", ",", "ADX", ",", "ADY", ",", "ADZ", ",", "(Ctrl_seq)", ",", "CS1", ",", "CS2", ",", "CS3", ",", "CS4", ",", "CS5", ",", "CS6", ",", "CS7", ",", "CS8", ",", "(Ctrl+-)", ",", "ID1", ",", "ID2", ",", "(Orientation)", ",", "OR1", ",", "OR2", ",", "OR3", ",", "OR4", ",", "OR5", ",", "OR6", ",", "(ZIL1)", ",", "(Accel)", ",", "Z1PX", ",", "Z1PY", ",", "Z1PZ", ",", "Z1AX", ",", "Z1AY", ",", "Z1AZ", ",", "Z1GX", ",", "Z1GY", ",", "Z1GZ", ",", "(Triggers)", ",", "Z1L", ",", "Z1R", ",", "Z1UP", ",", "Z1DN", ",", "Z1RL", ",", "Z1RR", ",", "(Switches)", ",", "Z1S1", ",", "Z1S2", ",", "(ZIL2)", ",", "(Accel)", ",", "Z2PX", ",", "Z2PY", ",", "Z2PZ", ",", "Z2AX", ",", "Z2AY", ",", "Z2AZ", ",", "Z2GX", ",", "Z2GY", ",", "Z2GZ", ",", "(Triggers)", ",", "Z2L", ",", "Z2R", ",", "Z2UP", ",", "Z2DN", ",", "Z2RL", ",", "Z2RR", ",", "(Switches)", ",", "Z2S1", ",", "Z2S2", ",", "(ZIL3)", ",", "(Accel)", ",", "Z3PX", ",", "Z3PY", ",", "Z3PZ", ",", "Z3AX", ",", "Z3AY", ",", "Z3AZ", ",", "Z3GX", ",", "Z3GY", ",", "Z3GZ", ",", "(Triggers)", ",", "Z3L", ",", "Z3R", ",", "Z3UP", ",", "Z3DN", ",", "Z3RL", ",", "Z3RR", ",", "(Switches)", ",", "Z3S1", ",", "Z3S2", ",", "(ZIL4)", ",", "(Accel)", ",", "Z4PX", ",", "Z4PY", ",", "Z4PZ", ",", "Z4AX", ",", "Z4AY", ",", "Z4AZ", ",", "Z4GX", ",", "Z4GY", ",", "Z4GZ", ",", "(Triggers)", ",", "Z4L", ",", "Z4R", ",", "Z4UP", ",", "Z4DN", ",", "Z4RL", ",", "Z4RR", ",", "(Switches)", ",", "Z4S1", ",", "Z4S2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1394,29 +1376,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-152", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-65", 0 ],
-					"source" : [ "obj-2", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-22", 0 ]
 				}
 
 			}

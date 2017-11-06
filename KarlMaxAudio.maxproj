@@ -1,8 +1,8 @@
 {
 	"name" : "KarlMaxAudio",
 	"version" : 1,
-	"creationdate" : -819573360,
-	"modificationdate" : 3561744467,
+	"creationdate" : -819573421,
+	"modificationdate" : 3592225369,
 	"viewrect" : [ 29.0, 54.0, 297.0, 695.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -23,6 +23,10 @@
 		}
 ,
 		"data" : 		{
+			"menu_items_sel_device.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
 
 		}
 ,
@@ -62,5 +66,6 @@
 	"amxdtype" : 0,
 	"readonly" : 1,
 	"devpathtype" : 0,
-	"devpath" : "."
+	"devpath" : ".",
+	"sortmode" : 0
 }

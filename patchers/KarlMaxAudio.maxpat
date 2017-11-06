@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 345.0, 57.0, 1019.0, 733.0 ],
+		"rect" : [ 410.0, 181.0, 1019.0, 733.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -128,7 +128,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 799.0, 78.0, 61.0, 19.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 750, 225, 1507, 788, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"style" : "",
 									"text" : "thispatcher"
 								}
@@ -441,7 +441,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 788.0, 461.0, 761.0, 573.0 ],
+						"rect" : [ 1014.0, 596.0, 761.0, 573.0 ],
 						"bgcolor" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -494,7 +494,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 795.0, 120.0, 61.0, 19.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 788, 461, 1549, 1034, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 1014, 596, 1775, 1169, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"style" : "",
 									"text" : "thispatcher"
 								}
@@ -11620,7 +11620,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1054.0, 413.0, 78.0, 22.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 345, 57, 1364, 790, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 410, 181, 1429, 914, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"style" : "",
 					"text" : "thispatcher"
 				}
@@ -15490,7 +15490,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 712.0, 458.0, 986.0, 643.0 ],
+						"rect" : [ 689.0, 437.0, 986.0, 643.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -16134,7 +16134,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 1266.0, 608.0, 78.0, 22.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 712, 458, 1698, 1101, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 689, 437, 1675, 1080, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"style" : "",
 									"text" : "thispatcher"
 								}
@@ -16613,9 +16613,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 29.0, 307.0, 151.0, 23.0 ],
+									"patching_rect" : [ 29.0, 307.0, 151.0, 39.0 ],
 									"style" : "",
-									"text" : "DtD playback 1"
+									"text" : "DtD playback\n"
 								}
 
 							}
@@ -16825,7 +16825,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1405.0, 297.0, 749.0, 490.0 ],
+						"rect" : [ 1171.0, 297.0, 749.0, 490.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -16852,7 +16852,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -16878,7 +16877,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 783.0, 140.0, 61.0, 19.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 1405, 297, 2154, 787, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 1171, 297, 1920, 787, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"style" : "",
 									"text" : "thispatcher"
 								}
@@ -22225,24 +22224,17 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-209::obj-16::obj-314" : [ "vst~[3]", "vst~", 0 ],
-			"obj-207::obj-16::obj-314" : [ "vst~[1]", "vst~", 0 ],
 			"obj-291::obj-16::obj-314" : [ "vst~[5]", "vst~", 0 ],
-			"obj-208::obj-16::obj-314" : [ "vst~[2]", "vst~", 0 ],
-			"obj-292::obj-16::obj-314" : [ "vst~[6]", "vst~", 0 ],
+			"obj-209::obj-16::obj-314" : [ "vst~[3]", "vst~", 0 ],
 			"obj-206::obj-16::obj-314" : [ "vst~", "vst~", 0 ],
 			"obj-317::obj-16::obj-314" : [ "vst~[7]", "vst~", 0 ],
-			"obj-290::obj-16::obj-314" : [ "vst~[4]", "vst~", 0 ]
+			"obj-290::obj-16::obj-314" : [ "vst~[4]", "vst~", 0 ],
+			"obj-292::obj-16::obj-314" : [ "vst~[6]", "vst~", 0 ],
+			"obj-208::obj-16::obj-314" : [ "vst~[2]", "vst~", 0 ],
+			"obj-207::obj-16::obj-314" : [ "vst~[1]", "vst~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "MorphTest.json",
-				"bootpath" : "~/MesDocuments/KarlaxAudioProjects/1_5Test",
-				"patcherrelativepath" : "../../../../MesDocuments/KarlaxAudioProjects/1_5Test",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "CM-ExtDevice.maxpat",
 				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"patcherrelativepath" : ".",
@@ -22779,6 +22771,13 @@
 				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "menu_items_sel_device.txt",
+				"bootpath" : "~/Dropbox/Dfct/KarlMaxAudioProjectMax7MacPC/data",
+				"patcherrelativepath" : "../data",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
