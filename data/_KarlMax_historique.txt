@@ -32,16 +32,19 @@ Global tempo On/off
 
 AJOUTER
 
-- Magnéto 8 pistes (avec fade entre deux fichiers) ; il existe déjà sans les fades ! OK
-- Ajouter 4 Ctrl Seq (5-8) OK A TESTER
+- Magnéto 8 pistes (avec fade entre deux fichiers) ; il existait déjà sans les fades ! OK
+- Ajouter 4 Ctrl Seq (5-8) OK
 - off sur les ports MIDI OK
+
+- device actif/non actif —> changement des menus d’assignation !!!
+	- l’activation/désactivation d’un Karlax ou des Zils est enregistrée dans les préférences. Cela modifie le contenu des menus lors du prochain lancement de l’application. On peut aussi voir directement les changements en allant dans « Prefs » : sauvez d’abord les settings puis utilisez le nouveau couteau « Reload ».
 
 
 8-04-16 v 1.4
 
 - Version à partir de Max 7
 - ajout du stretching dans le module sampler
-- ATTENTION najo.multipan ne marche quand mode 32 bit !!!
+- ATTENTION najo.multipan ne marche qu’en mode 32 bit !!!
 
 IL FAUT COCHER L’OPTION DANS LES INFOS DE L’APP CREER PAR MAX !!!
 

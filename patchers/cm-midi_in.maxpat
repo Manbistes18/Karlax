@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 149.0, 80.0, 1237.0, 1048.0 ],
+		"rect" : [ 215.0, 79.0, 1610.0, 1067.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,33 +39,79 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-152",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 217.5, 978.0, 129.0, 22.0 ],
+					"id" : "obj-119",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1095.5, 837.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "s to_coll_menu_item"
+					"text" : "clear"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 1.0, 0.360784, 0.682353, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-151",
+					"id" : "obj-107",
+					"items" : "<empty>",
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 928.5, 883.0, 100.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-97",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 928.5, 845.0, 141.0, 22.0 ],
+					"style" : "",
+					"text" : "r to_ctrl_menu_items"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-111",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 85.0, 978.0, 119.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 0
-					}
-,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 253.0, 926.0, 100.0, 22.0 ],
 					"style" : "",
-					"text" : "coll menu_items.coll"
+					"text" : "prepend symbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-110",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 650.0, 704.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.156863, 0.8, 0.54902, 1.0 ],
+					"id" : "obj-152",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 423.0, 1089.0, 129.0, 22.0 ],
+					"style" : "",
+					"text" : "s to_ctrl_menu_items"
 				}
 
 			}
@@ -74,7 +120,6 @@
 					"color" : [ 1.0, 0.890196, 0.090196, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"hidden" : 1,
 					"id" : "obj-149",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -91,7 +136,6 @@
 					"color" : [ 1.0, 0.890196, 0.090196, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"hidden" : 1,
 					"id" : "obj-150",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -108,7 +152,6 @@
 					"color" : [ 1.0, 0.890196, 0.090196, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"hidden" : 1,
 					"id" : "obj-148",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -125,7 +168,6 @@
 					"color" : [ 1.0, 0.890196, 0.090196, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"hidden" : 1,
 					"id" : "obj-147",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -142,7 +184,6 @@
 					"color" : [ 1.0, 0.890196, 0.090196, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"hidden" : 1,
 					"id" : "obj-146",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -156,12 +197,13 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.156863, 0.8, 0.54902, 1.0 ],
 					"id" : "obj-145",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 457.0, 543.0, 153.0, 22.0 ],
+					"patching_rect" : [ 700.0, 710.0, 153.0, 22.0 ],
 					"style" : "",
 					"text" : "r to_generate_sel_menus"
 				}
@@ -169,6 +211,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.156863, 0.8, 0.54902, 1.0 ],
 					"id" : "obj-144",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -182,6 +225,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.156863, 0.8, 0.54902, 1.0 ],
 					"id" : "obj-143",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -195,6 +239,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.156863, 0.8, 0.54902, 1.0 ],
 					"id" : "obj-142",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -208,6 +253,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.156863, 0.8, 0.54902, 1.0 ],
 					"id" : "obj-141",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -221,6 +267,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.156863, 0.8, 0.54902, 1.0 ],
 					"id" : "obj-140",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -261,7 +308,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 337.0, 181.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 335.0, 180.0, 0.0, 0.0 ],
 					"style" : "",
 					"varname" : "zil3_activ-LD"
 				}
@@ -296,7 +342,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 159.0, 181.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 156.0, 179.0, 0.0, 0.0 ],
 					"style" : "",
 					"varname" : "zil1_activ-LD"
 				}
@@ -326,22 +371,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 85.0, 914.0, 58.0, 22.0 ],
+					"patching_rect" : [ 250.0, 1008.0, 58.0, 22.0 ],
 					"style" : "",
 					"text" : "zl iter 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-130",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 457.0, 576.0, 35.0, 22.0 ],
-					"style" : "",
-					"text" : "b"
 				}
 
 			}
@@ -352,7 +384,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 282.0, 821.0, 40.0, 22.0 ],
+					"patching_rect" : [ 450.0, 872.0, 40.0, 22.0 ],
 					"style" : "",
 					"text" : "zil4"
 				}
@@ -365,7 +397,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 237.0, 821.0, 40.0, 22.0 ],
+					"patching_rect" : [ 405.0, 872.0, 40.0, 22.0 ],
 					"style" : "",
 					"text" : "zil3"
 				}
@@ -378,7 +410,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.0, 821.0, 40.0, 22.0 ],
+					"patching_rect" : [ 353.0, 872.0, 40.0, 22.0 ],
 					"style" : "",
 					"text" : "zil2"
 				}
@@ -391,8 +423,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 137.0, 821.0, 40.0, 22.0 ],
-					"presentation_rect" : [ 438.0, 810.0, 0.0, 0.0 ],
+					"patching_rect" : [ 305.0, 872.0, 40.0, 22.0 ],
 					"style" : "",
 					"text" : "zil1"
 				}
@@ -405,7 +436,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 282.0, 786.0, 35.0, 22.0 ],
+					"patching_rect" : [ 450.0, 837.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "sel 1"
 				}
@@ -418,7 +449,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 237.0, 786.0, 35.0, 22.0 ],
+					"patching_rect" : [ 405.0, 837.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "sel 1"
 				}
@@ -431,7 +462,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 185.0, 786.0, 35.0, 22.0 ],
+					"patching_rect" : [ 353.0, 837.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "sel 1"
 				}
@@ -444,8 +475,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 137.0, 786.0, 35.0, 22.0 ],
-					"presentation_rect" : [ 447.0, 741.0, 0.0, 0.0 ],
+					"patching_rect" : [ 305.0, 837.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "sel 1"
 				}
@@ -458,7 +488,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 85.0, 786.0, 35.0, 22.0 ],
+					"patching_rect" : [ 253.0, 837.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "sel 1"
 				}
@@ -471,7 +501,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 85.0, 821.0, 50.0, 22.0 ],
+					"patching_rect" : [ 253.0, 872.0, 50.0, 22.0 ],
 					"style" : "",
 					"text" : "karlax"
 				}
@@ -484,8 +514,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 282.0, 754.0, 35.0, 22.0 ],
-					"presentation_rect" : [ 587.0, 712.0, 0.0, 0.0 ],
+					"patching_rect" : [ 450.0, 805.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "> 0"
 				}
@@ -498,8 +527,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 237.0, 754.0, 35.0, 22.0 ],
-					"presentation_rect" : [ 542.0, 711.0, 0.0, 0.0 ],
+					"patching_rect" : [ 405.0, 805.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "> 0"
 				}
@@ -512,8 +540,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 185.0, 754.0, 35.0, 22.0 ],
-					"presentation_rect" : [ 490.0, 711.0, 0.0, 0.0 ],
+					"patching_rect" : [ 353.0, 805.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "> 0"
 				}
@@ -526,8 +553,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 137.0, 754.0, 35.0, 22.0 ],
-					"presentation_rect" : [ 443.0, 714.0, 0.0, 0.0 ],
+					"patching_rect" : [ 305.0, 805.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "> 0"
 				}
@@ -540,59 +566,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 85.0, 754.0, 35.0, 22.0 ],
+					"patching_rect" : [ 253.0, 805.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "> 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"allowdrag" : 0,
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0,
-					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "gradient",
-					"elementcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
-					"id" : "obj-112",
-					"items" : [ "Off", ",", "(Ctrl_seq)", ",", "CS1", ",", "CS2", ",", "CS3", ",", "CS4", ",", "CS5", ",", "CS6", ",", "CS7", ",", "CS8", ",", "(KARLAX)", ",", "(Pistons)", ",", "P1G", ",", "P2G", ",", "P3G", ",", "P4G", ",", "P1D", ",", "P2D", ",", "P3D", ",", "P4D", ",", "(Keys)", ",", "T1G", ",", "T2G", ",", "T3G", ",", "T4G", ",", "T5G", ",", "T1D", ",", "T2D", ",", "T3D", ",", "T4D", ",", "T5D", ",", "(Axis)", ",", "AXE", ",", "AB1", ",", "AB2", ",", "(Switches)", ",", "S1G", ",", "S2G", ",", "S3G", ",", "S4G", ",", "S1D", ",", "S2D", ",", "S3D", ",", "S4D", ",", "(Back Switches)", ",", "B1G", ",", "B2G", ",", "B3G", ",", "B4G", ",", "B5G", ",", "B1D", ",", "B2D", ",", "B3D", ",", "B4D", ",", "(Pitch&Roll)", ",", "APT", ",", "ARL", ",", "(Translations)", ",", "ADN", ",", "AFU", ",", "AFD", ",", "ALD", ",", "ARD", ",", "ARV", ",", "ADX", ",", "ADY", ",", "ADZ", ",", "(Ctrl+-)", ",", "ID1", ",", "ID2", ",", "(Orientation)", ",", "OR1", ",", "OR2", ",", "OR3", ",", "OR4", ",", "OR5", ",", "OR6", ",", "(ZIL1)", ",", "(Accel)", ",", "Z1PX", ",", "Z1PY", ",", "Z1PZ", ",", "Z1AX", ",", "Z1AY", ",", "Z1AZ", ",", "Z1GX", ",", "Z1GY", ",", "Z1GZ", ",", "(Triggers)", ",", "Z1L", ",", "Z1R", ",", "Z1UP", ",", "Z1DN", ",", "Z1RL", ",", "Z1RR", ",", "(Switches)", ",", "Z1S1", ",", "Z1S2", ",", "(ZIL2)", ",", "(Accel)", ",", "Z2PX", ",", "Z2PY", ",", "Z2PZ", ",", "Z2AX", ",", "Z2AY", ",", "Z2AZ", ",", "Z2GX", ",", "Z2GY", ",", "Z2GZ", ",", "(Triggers)", ",", "Z2L", ",", "Z2R", ",", "Z2UP", ",", "Z2DN", ",", "Z2RL", ",", "Z2RR", ",", "(Switches)", ",", "Z2S1", ",", "Z2S2" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 653.0, 626.0, 100.0, 22.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.156863, 0.8, 0.54902, 1.0 ],
-					"id" : "obj-109",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 653.0, 590.0, 103.0, 22.0 ],
-					"style" : "",
-					"text" : "r to_select_menu"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-108",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 572.0, 697.0, 50.0, 22.0 ],
-					"style" : "",
-					"text" : "all"
 				}
 
 			}
@@ -602,10 +578,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 8,
-					"outlettype" : [ "dump", "bang", "bang", "bang", "bang", "bang", "bang", "clear" ],
-					"patching_rect" : [ 457.0, 643.0, 153.166641, 22.0 ],
+					"outlettype" : [ "all", "bang", "bang", "bang", "bang", "bang", "Off", "clear" ],
+					"patching_rect" : [ 451.916687, 689.0, 153.166641, 22.0 ],
 					"style" : "",
-					"text" : "t dump b b b b b b clear"
+					"text" : "t all b b b b b Off clear"
 				}
 
 			}
@@ -616,7 +592,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 457.0, 610.0, 80.0, 22.0 ],
+					"patching_rect" : [ 700.0, 752.0, 80.0, 22.0 ],
 					"style" : "",
 					"text" : "delay 1000"
 				}
@@ -629,7 +605,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 282.0, 718.0, 35.0, 22.0 ],
+					"patching_rect" : [ 450.0, 769.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "i"
 				}
@@ -642,7 +618,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 237.0, 718.0, 35.0, 22.0 ],
+					"patching_rect" : [ 405.0, 769.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "i"
 				}
@@ -655,7 +631,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 185.0, 718.0, 35.0, 22.0 ],
+					"patching_rect" : [ 353.0, 769.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "i"
 				}
@@ -668,7 +644,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 137.0, 718.0, 35.0, 22.0 ],
+					"patching_rect" : [ 305.0, 769.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "i"
 				}
@@ -681,7 +657,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 85.0, 718.0, 35.0, 22.0 ],
+					"patching_rect" : [ 253.0, 769.0, 35.0, 22.0 ],
 					"style" : "",
 					"text" : "i"
 				}
@@ -694,7 +670,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 85.0, 946.0, 100.0, 22.0 ],
+					"patching_rect" : [ 423.0, 1049.0, 100.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend append"
 				}
@@ -702,12 +678,13 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 1.0, 0.360784, 0.682353, 1.0 ],
 					"id" : "obj-98",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 85.0, 880.0, 227.0, 22.0 ],
+					"patching_rect" : [ 253.0, 969.0, 192.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -1361,7 +1338,7 @@
 					"bgfillcolor_type" : "color",
 					"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-54",
-					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1417,7 +1394,7 @@
 					"bgfillcolor_type" : "color",
 					"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-51",
-					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1473,7 +1450,7 @@
 					"bgfillcolor_type" : "color",
 					"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-48",
-					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1651,7 +1628,7 @@
 					"bgfillcolor_type" : "color",
 					"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-12",
-					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1739,7 +1716,7 @@
 					"bgfillcolor_type" : "color",
 					"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-17",
-					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1817,6 +1794,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.156863, 0.8, 0.54902, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-22",
@@ -2149,7 +2127,7 @@
 					"bgfillcolor_type" : "color",
 					"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-43",
-					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2191,7 +2169,7 @@
 					"bgfillcolor_type" : "color",
 					"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-45",
-					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2224,7 +2202,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-151", 0 ],
+					"destination" : [ "obj-152", 0 ],
 					"source" : [ "obj-100", 0 ]
 				}
 
@@ -2266,49 +2244,49 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-101", 0 ],
-					"source" : [ "obj-106", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-102", 0 ],
-					"source" : [ "obj-106", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-103", 0 ],
-					"source" : [ "obj-106", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-104", 0 ],
-					"source" : [ "obj-106", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-108", 0 ],
+					"destination" : [ "obj-100", 0 ],
 					"source" : [ "obj-106", 6 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-151", 0 ],
-					"source" : [ "obj-106", 7 ]
+					"destination" : [ "obj-101", 0 ],
+					"source" : [ "obj-106", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-102", 0 ],
+					"source" : [ "obj-106", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-103", 0 ],
+					"source" : [ "obj-106", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-104", 0 ],
+					"source" : [ "obj-106", 5 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-152", 0 ],
+					"source" : [ "obj-106", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 0 ],
 					"source" : [ "obj-106", 0 ]
 				}
 
@@ -2316,21 +2294,21 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-99", 0 ],
-					"source" : [ "obj-106", 5 ]
+					"source" : [ "obj-106", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-105", 0 ],
+					"source" : [ "obj-110", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-98", 0 ],
-					"source" : [ "obj-108", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-112", 0 ],
-					"source" : [ "obj-109", 0 ]
+					"source" : [ "obj-111", 0 ]
 				}
 
 			}
@@ -2366,6 +2344,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-125", 0 ],
 					"source" : [ "obj-118", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-107", 0 ],
+					"source" : [ "obj-119", 0 ]
 				}
 
 			}
@@ -2407,7 +2392,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-98", 0 ],
+					"destination" : [ "obj-111", 0 ],
 					"source" : [ "obj-120", 0 ]
 				}
 
@@ -2449,36 +2434,29 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-98", 0 ],
+					"destination" : [ "obj-111", 0 ],
 					"source" : [ "obj-126", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-98", 0 ],
+					"destination" : [ "obj-111", 0 ],
 					"source" : [ "obj-127", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-98", 0 ],
+					"destination" : [ "obj-111", 0 ],
 					"source" : [ "obj-128", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-98", 0 ],
+					"destination" : [ "obj-111", 0 ],
 					"source" : [ "obj-129", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-105", 0 ],
-					"source" : [ "obj-130", 0 ]
 				}
 
 			}
@@ -2571,7 +2549,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-130", 0 ],
+					"destination" : [ "obj-105", 0 ],
 					"source" : [ "obj-145", 0 ]
 				}
 
@@ -3751,6 +3729,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-74", 0 ],
 					"source" : [ "obj-96", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-107", 0 ],
+					"source" : [ "obj-97", 0 ]
 				}
 
 			}
