@@ -1,9 +1,14 @@
 Karlax Audio Historique
 
 
+25-11-17
+
+v1.51
+Ajout des menus pour Bop1 et Bop2 OK
+
+Correction d’un bug empêchant l’ulisation de la position de la rotation des ZILs.
+
 22-07-17
-
-
 
 Note Rémi pour v 1.5
 
