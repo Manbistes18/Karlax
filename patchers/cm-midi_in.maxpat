@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 528.0, 79.0, 1066.0, 1067.0 ],
+		"rect" : [ 353.0, 481.0, 999.0, 1036.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
@@ -38,6 +38,92 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-192",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1578.5, 613.0, 42.0, 22.0 ],
+					"style" : "",
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.156863, 0.8, 0.54902, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-193",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1578.5, 685.0, 93.0, 22.0 ],
+					"style" : "",
+					"text" : "s Bop2-pgrm-in"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-195",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 1603.0, 571.0, 43.0, 22.0 ],
+					"style" : "",
+					"text" : "pgmin"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-191",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1347.0, 613.0, 42.0, 22.0 ],
+					"style" : "",
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.156863, 0.8, 0.54902, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-188",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1347.0, 690.0, 93.0, 22.0 ],
+					"style" : "",
+					"text" : "s Bop1-pgrm-in"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-190",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 1371.5, 571.0, 43.0, 22.0 ],
+					"style" : "",
+					"text" : "pgmin"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 1.0, 0.890196, 0.090196, 1.0 ],
 					"fontname" : "Arial",
@@ -77,7 +163,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 549.916687, 876.0, 40.0, 22.0 ],
-					"presentation_rect" : [ 549.916687, 876.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "bop2"
 				}
@@ -91,7 +176,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 504.916687, 876.0, 40.0, 22.0 ],
-					"presentation_rect" : [ 504.916687, 876.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "bop1"
 				}
@@ -105,7 +189,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 549.916687, 841.0, 35.0, 22.0 ],
-					"presentation_rect" : [ 549.916687, 841.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "sel 1"
 				}
@@ -119,7 +202,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 504.916687, 841.0, 35.0, 22.0 ],
-					"presentation_rect" : [ 504.916687, 841.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "sel 1"
 				}
@@ -133,7 +215,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 549.916687, 809.0, 35.0, 22.0 ],
-					"presentation_rect" : [ 549.916687, 809.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "> 0"
 				}
@@ -147,7 +228,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 504.916687, 809.0, 35.0, 22.0 ],
-					"presentation_rect" : [ 504.916687, 809.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "> 0"
 				}
@@ -161,7 +241,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 549.916687, 773.0, 35.0, 22.0 ],
-					"presentation_rect" : [ 549.916687, 773.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "i"
 				}
@@ -175,7 +254,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 504.916687, 773.0, 35.0, 22.0 ],
-					"presentation_rect" : [ 504.916687, 773.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "i"
 				}
@@ -229,11 +307,12 @@
 					"fontsize" : 12.0,
 					"hidden" : 1,
 					"id" : "obj-183",
+					"ignoreclick" : 1,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 965.0, 212.0, 175.0, 22.0 ],
+					"patching_rect" : [ 1293.0, 783.0, 175.0, 22.0 ],
 					"style" : "",
 					"text" : "cm-mem-pref Bop2_midi_out"
 				}
@@ -246,11 +325,12 @@
 					"fontsize" : 12.0,
 					"hidden" : 1,
 					"id" : "obj-182",
+					"ignoreclick" : 1,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 951.0, 184.0, 175.0, 22.0 ],
+					"patching_rect" : [ 1279.0, 755.0, 175.0, 22.0 ],
 					"style" : "",
 					"text" : "cm-mem-pref Bop1_midi_out"
 				}
@@ -559,7 +639,7 @@
 					"oncolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 469.0, 181.0, 20.0, 20.0 ],
+					"patching_rect" : [ 489.0, 181.0, 20.0, 20.0 ],
 					"style" : "",
 					"varname" : "bop2_activ-LD"
 				}
@@ -576,7 +656,7 @@
 					"oncolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 402.0, 181.0, 20.0, 20.0 ],
+					"patching_rect" : [ 415.0, 181.0, 20.0, 20.0 ],
 					"style" : "",
 					"varname" : "bop1_activ-LD"
 				}
@@ -586,6 +666,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-154",
+					"ignoreclick" : 1,
 					"maxclass" : "led",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -593,7 +674,7 @@
 					"oncolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 485.0, 181.0, 20.0, 20.0 ],
+					"patching_rect" : [ 506.0, 181.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -606,7 +687,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 434.0, 184.0, 40.0, 20.0 ],
+					"patching_rect" : [ 448.0, 184.0, 40.0, 20.0 ],
 					"style" : "",
 					"text" : "Bop 2",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -626,13 +707,13 @@
 					"bgfillcolor_type" : "color",
 					"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-156",
-					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "Zil 30   Port 1", ",", "Zil 30   Port 2", ",", "Zil 30   Port 3", ",", "Zil 30   Port 4", ",", "FaderPort", ",", "Xio", ",", "Daemon Input 0", ",", "Daemon Input 1", ",", "Daemon Input 2", ",", "Daemon Input 3", ",", "Daemon Input 4", ",", "Daemon Input 5", ",", "Daemon Input 6", ",", "Daemon Input 7", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 438.0, 202.0, 64.0, 22.0 ],
+					"patching_rect" : [ 452.0, 202.0, 70.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -642,6 +723,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-157",
+					"ignoreclick" : 1,
 					"maxclass" : "led",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -649,7 +731,7 @@
 					"oncolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 418.0, 181.0, 20.0, 20.0 ],
+					"patching_rect" : [ 431.0, 181.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -662,7 +744,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 368.0, 184.0, 41.0, 20.0 ],
+					"patching_rect" : [ 378.0, 184.0, 41.0, 20.0 ],
 					"style" : "",
 					"text" : "Bop 1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -682,13 +764,13 @@
 					"bgfillcolor_type" : "color",
 					"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-159",
-					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "Zil 30   Port 1", ",", "Zil 30   Port 2", ",", "Zil 30   Port 3", ",", "Zil 30   Port 4", ",", "FaderPort", ",", "Xio", ",", "Daemon Input 0", ",", "Daemon Input 1", ",", "Daemon Input 2", ",", "Daemon Input 3", ",", "Daemon Input 4", ",", "Daemon Input 5", ",", "Daemon Input 6", ",", "Daemon Input 7", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 370.0, 202.0, 64.0, 22.0 ],
+					"patching_rect" : [ 378.0, 202.0, 70.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -702,7 +784,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 278.0, 161.0, 81.0, 27.0 ],
+					"patching_rect" : [ 279.0, 161.0, 81.0, 27.0 ],
 					"style" : "",
 					"text" : "Midi In",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -725,7 +807,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-107",
-					"items" : [ "Off", ",", "(BOP2)", ",", "(Accel)", ",", "B2PX", ",", "B2PY", ",", "B2PZ", ",", "B2AX", ",", "B2AY", ",", "B2AZ", ",", "B2GX", ",", "B2GY", ",", "B2GZ", ",", "(Triggers)", ",", "B2L", ",", "B2R", ",", "B2UP", ",", "B2DN", ",", "B2RL", ",", "B2RR", ",", "(Switches)", ",", "B2S1", ",", "B2S2", ",", "B2S3", ",", "(BOP1)", ",", "(Accel)", ",", "B1PX", ",", "B1PY", ",", "B1PZ", ",", "B1AX", ",", "B1AY", ",", "B1AZ", ",", "B1GX", ",", "B1GY", ",", "B1GZ", ",", "(Triggers)", ",", "B1L", ",", "B1R", ",", "B1UP", ",", "B1DN", ",", "B1RL", ",", "B1RR", ",", "(Switches)", ",", "B1S1", ",", "B1S2", ",", "B1S3", ",", "(ZIL1)", ",", "(Accel)", ",", "Z1PX", ",", "Z1PY", ",", "Z1PZ", ",", "Z1AX", ",", "Z1AY", ",", "Z1AZ", ",", "Z1GX", ",", "Z1GY", ",", "Z1GZ", ",", "(Triggers)", ",", "Z1L", ",", "Z1R", ",", "Z1UP", ",", "Z1DN", ",", "Z1RL", ",", "Z1RR", ",", "(Switches)", ",", "Z1S1", ",", "Z1S2", ",", "(ZIL2)", ",", "(Accel)", ",", "Z2PX", ",", "Z2PY", ",", "Z2PZ", ",", "Z2AX", ",", "Z2AY", ",", "Z2AZ", ",", "Z2GX", ",", "Z2GY", ",", "Z2GZ", ",", "(Triggers)", ",", "Z2L", ",", "Z2R", ",", "Z2UP", ",", "Z2DN", ",", "Z2RL", ",", "Z2RR", ",", "(Switches)", ",", "Z2S1", ",", "Z2S2", ",", "Off", ",", "(Ctrl_seq)", ",", "CS1", ",", "CS2", ",", "CS3", ",", "CS4", ",", "CS5", ",", "CS6", ",", "CS7", ",", "CS8" ],
+					"items" : [ "Off", ",", "(BOP1)", ",", "(Accel)", ",", "B1PX", ",", "B1PY", ",", "B1PR", ",", "B1AX", ",", "B1AY", ",", "B1AZ", ",", "B1GX", ",", "B1GY", ",", "B1GZ", ",", "(Triggers)", ",", "B1L", ",", "B1R", ",", "B1UP", ",", "B1DN", ",", "B1RL", ",", "B1RR", ",", "(Switches)", ",", "B1S1", ",", "B1S2", ",", "B1S3", ",", "B1S4", ",", "(KARLAX)", ",", "(Pistons)", ",", "P1G", ",", "P2G", ",", "P3G", ",", "P4G", ",", "P1D", ",", "P2D", ",", "P3D", ",", "P4D", ",", "(Keys)", ",", "T1G", ",", "T2G", ",", "T3G", ",", "T4G", ",", "T5G", ",", "T1D", ",", "T2D", ",", "T3D", ",", "T4D", ",", "T5D", ",", "(Axis)", ",", "AXE", ",", "AB1", ",", "AB2", ",", "(Switches)", ",", "S1G", ",", "S2G", ",", "S3G", ",", "S4G", ",", "S1D", ",", "S2D", ",", "S3D", ",", "S4D", ",", "(Back Switches)", ",", "B1G", ",", "B2G", ",", "B3G", ",", "B4G", ",", "B5G", ",", "B1D", ",", "B2D", ",", "B3D", ",", "B4D", ",", "(Pitch&Roll)", ",", "APT", ",", "ARL", ",", "(Translations)", ",", "ADN", ",", "AFU", ",", "AFD", ",", "ALD", ",", "ARD", ",", "ARV", ",", "ADX", ",", "ADY", ",", "ADZ", ",", "(Orientation)", ",", "OR1", ",", "OR2", ",", "OR3", ",", "OR4", ",", "OR5", ",", "OR6", ",", "(ZIL1)", ",", "(Accel)", ",", "Z1PX", ",", "Z1PY", ",", "Z1PR", ",", "Z1AX", ",", "Z1AY", ",", "Z1AZ", ",", "Z1GX", ",", "Z1GY", ",", "Z1GZ", ",", "(Triggers)", ",", "Z1L", ",", "Z1R", ",", "Z1UP", ",", "Z1DN", ",", "Z1RL", ",", "Z1RR", ",", "(Switches)", ",", "Z1S1", ",", "Z1S2", ",", "Off", ",", "(Ctrl_seq)", ",", "CS1", ",", "CS2", ",", "CS3", ",", "CS4", ",", "CS5", ",", "CS6", ",", "CS7", ",", "CS8", ",", "(IncDec)", ",", "ID1", ",", "ID2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -962,7 +1044,7 @@
 					"oncolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 332.0, 181.0, 20.0, 20.0 ],
+					"patching_rect" : [ 333.0, 181.0, 20.0, 20.0 ],
 					"style" : "",
 					"varname" : "zil4_activ-LD"
 				}
@@ -979,7 +1061,7 @@
 					"oncolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 264.0, 181.0, 20.0, 20.0 ],
+					"patching_rect" : [ 265.0, 181.0, 20.0, 20.0 ],
 					"style" : "",
 					"varname" : "zil3_activ-LD"
 				}
@@ -996,7 +1078,7 @@
 					"oncolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 197.0, 181.0, 20.0, 20.0 ],
+					"patching_rect" : [ 198.0, 181.0, 20.0, 20.0 ],
 					"style" : "",
 					"varname" : "zil2_activ-LD"
 				}
@@ -1013,7 +1095,7 @@
 					"oncolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 129.0, 181.0, 20.0, 20.0 ],
+					"patching_rect" : [ 130.0, 181.0, 20.0, 20.0 ],
 					"style" : "",
 					"varname" : "zil1_activ-LD"
 				}
@@ -1607,11 +1689,12 @@
 					"fontsize" : 12.0,
 					"hidden" : 1,
 					"id" : "obj-77",
+					"ignoreclick" : 1,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 934.0, 150.0, 175.0, 22.0 ],
+					"patching_rect" : [ 1262.0, 721.0, 175.0, 22.0 ],
 					"style" : "",
 					"text" : "cm-mem-pref zil4_midi_out"
 				}
@@ -1624,11 +1707,12 @@
 					"fontsize" : 12.0,
 					"hidden" : 1,
 					"id" : "obj-78",
+					"ignoreclick" : 1,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 910.5, 114.0, 175.0, 22.0 ],
+					"patching_rect" : [ 1238.5, 685.0, 175.0, 22.0 ],
 					"style" : "",
 					"text" : "cm-mem-pref zil3_midi_out"
 				}
@@ -1641,11 +1725,12 @@
 					"fontsize" : 12.0,
 					"hidden" : 1,
 					"id" : "obj-76",
+					"ignoreclick" : 1,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 890.5, 77.0, 175.0, 22.0 ],
+					"patching_rect" : [ 1218.5, 648.0, 175.0, 22.0 ],
 					"style" : "",
 					"text" : "cm-mem-pref zil2_midi_out"
 				}
@@ -1970,6 +2055,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-52",
+					"ignoreclick" : 1,
 					"maxclass" : "led",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -1977,7 +2063,7 @@
 					"oncolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 350.0, 181.0, 20.0, 20.0 ],
+					"patching_rect" : [ 351.0, 181.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -1990,7 +2076,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 303.0, 184.0, 71.0, 20.0 ],
+					"patching_rect" : [ 304.0, 184.0, 71.0, 20.0 ],
 					"style" : "",
 					"text" : "Zil 4",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -2010,13 +2096,13 @@
 					"bgfillcolor_type" : "color",
 					"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-54",
-					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "Zil 30   Port 1", ",", "Zil 30   Port 2", ",", "Zil 30   Port 3", ",", "Zil 30   Port 4", ",", "FaderPort", ",", "Xio", ",", "Daemon Input 0", ",", "Daemon Input 1", ",", "Daemon Input 2", ",", "Daemon Input 3", ",", "Daemon Input 4", ",", "Daemon Input 5", ",", "Daemon Input 6", ",", "Daemon Input 7", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 303.0, 202.0, 64.0, 22.0 ],
+					"patching_rect" : [ 304.0, 202.0, 64.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -2026,6 +2112,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-49",
+					"ignoreclick" : 1,
 					"maxclass" : "led",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -2033,7 +2120,7 @@
 					"oncolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 282.0, 181.0, 20.0, 20.0 ],
+					"patching_rect" : [ 283.0, 181.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -2046,7 +2133,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 235.0, 184.0, 86.0, 20.0 ],
+					"patching_rect" : [ 236.0, 184.0, 86.0, 20.0 ],
 					"style" : "",
 					"text" : "Zil 3",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -2066,13 +2153,13 @@
 					"bgfillcolor_type" : "color",
 					"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-51",
-					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "Zil 30   Port 1", ",", "Zil 30   Port 2", ",", "Zil 30   Port 3", ",", "Zil 30   Port 4", ",", "FaderPort", ",", "Xio", ",", "Daemon Input 0", ",", "Daemon Input 1", ",", "Daemon Input 2", ",", "Daemon Input 3", ",", "Daemon Input 4", ",", "Daemon Input 5", ",", "Daemon Input 6", ",", "Daemon Input 7", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 235.0, 202.0, 64.0, 22.0 ],
+					"patching_rect" : [ 236.0, 202.0, 64.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -2082,6 +2169,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-1",
+					"ignoreclick" : 1,
 					"maxclass" : "led",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -2089,7 +2177,7 @@
 					"oncolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 214.0, 181.0, 20.0, 20.0 ],
+					"patching_rect" : [ 215.0, 181.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -2102,7 +2190,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.0, 184.0, 102.0, 20.0 ],
+					"patching_rect" : [ 170.0, 184.0, 102.0, 20.0 ],
 					"style" : "",
 					"text" : "Zil 2",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -2122,13 +2210,13 @@
 					"bgfillcolor_type" : "color",
 					"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-48",
-					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "Zil 30   Port 1", ",", "Zil 30   Port 2", ",", "Zil 30   Port 3", ",", "Zil 30   Port 4", ",", "FaderPort", ",", "Xio", ",", "Daemon Input 0", ",", "Daemon Input 1", ",", "Daemon Input 2", ",", "Daemon Input 3", ",", "Daemon Input 4", ",", "Daemon Input 5", ",", "Daemon Input 6", ",", "Daemon Input 7", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 167.0, 202.0, 64.0, 22.0 ],
+					"patching_rect" : [ 168.0, 202.0, 64.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -2141,11 +2229,12 @@
 					"fontsize" : 12.0,
 					"hidden" : 1,
 					"id" : "obj-2",
+					"ignoreclick" : 1,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 869.5, 46.0, 175.0, 22.0 ],
+					"patching_rect" : [ 1197.5, 617.0, 175.0, 22.0 ],
 					"style" : "",
 					"text" : "cm-mem-pref zil1_midi_out"
 				}
@@ -2260,6 +2349,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-10",
+					"ignoreclick" : 1,
 					"maxclass" : "led",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -2267,7 +2357,7 @@
 					"oncolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 147.0, 181.0, 20.0, 20.0 ],
+					"patching_rect" : [ 148.0, 181.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -2280,7 +2370,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.0, 184.0, 37.0, 20.0 ],
+					"patching_rect" : [ 102.0, 184.0, 37.0, 20.0 ],
 					"style" : "",
 					"text" : "Zil 1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -2300,13 +2390,13 @@
 					"bgfillcolor_type" : "color",
 					"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-12",
-					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "Zil 30   Port 1", ",", "Zil 30   Port 2", ",", "Zil 30   Port 3", ",", "Zil 30   Port 4", ",", "FaderPort", ",", "Xio", ",", "Daemon Input 0", ",", "Daemon Input 1", ",", "Daemon Input 2", ",", "Daemon Input 3", ",", "Daemon Input 4", ",", "Daemon Input 5", ",", "Daemon Input 6", ",", "Daemon Input 7", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 99.0, 202.0, 64.0, 22.0 ],
+					"patching_rect" : [ 100.0, 202.0, 64.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -2350,11 +2440,12 @@
 					"fontsize" : 12.0,
 					"hidden" : 1,
 					"id" : "obj-15",
+					"ignoreclick" : 1,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1029.0, 248.0, 190.0, 22.0 ],
+					"patching_rect" : [ 1357.0, 819.0, 190.0, 22.0 ],
 					"style" : "",
 					"text" : "cm-mem-pref midi_clock_out"
 				}
@@ -2368,7 +2459,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 597.0, 184.0, 71.0, 20.0 ],
+					"patching_rect" : [ 617.0, 184.0, 71.0, 20.0 ],
 					"style" : "",
 					"text" : "Midi Clock",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -2388,13 +2479,13 @@
 					"bgfillcolor_type" : "color",
 					"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-17",
-					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "Zil 30   Port 1", ",", "Zil 30   Port 2", ",", "Zil 30   Port 3", ",", "Zil 30   Port 4", ",", "FaderPort", ",", "Xio", ",", "Daemon Input 0", ",", "Daemon Input 1", ",", "Daemon Input 2", ",", "Daemon Input 3", ",", "Daemon Input 4", ",", "Daemon Input 5", ",", "Daemon Input 6", ",", "Daemon Input 7", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 597.0, 202.0, 81.0, 22.0 ],
+					"patching_rect" : [ 617.0, 202.0, 81.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -2410,7 +2501,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 148.0, 104.0, 82.0, 22.0 ],
+					"patching_rect" : [ 308.0, 56.0, 82.0, 22.0 ],
 					"style" : "",
 					"text" : "append <off>"
 				}
@@ -2426,7 +2517,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "controllers", "bang", "clear" ],
-					"patching_rect" : [ 253.0, 60.0, 131.0, 22.0 ],
+					"patching_rect" : [ 398.0, 326.0, 131.0, 22.0 ],
 					"style" : "",
 					"text" : "t controllers b clear"
 				}
@@ -2442,7 +2533,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 57.0, 104.0, 77.0, 22.0 ],
+					"patching_rect" : [ 217.0, 56.0, 77.0, 22.0 ],
 					"style" : "",
 					"text" : "route clear"
 				}
@@ -2458,7 +2549,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 253.0, 92.0, 58.0, 22.0 ],
+					"patching_rect" : [ 398.0, 358.0, 58.0, 22.0 ],
 					"style" : "",
 					"text" : "midiinfo"
 				}
@@ -2474,7 +2565,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 253.0, 7.0, 81.0, 22.0 ],
+					"patching_rect" : [ 398.0, 273.0, 81.0, 22.0 ],
 					"style" : "",
 					"text" : "r scan_midi"
 				}
@@ -2514,6 +2605,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-25",
+					"ignoreclick" : 1,
 					"maxclass" : "led",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -2521,7 +2613,7 @@
 					"oncolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 568.0, 181.0, 20.0, 20.0 ],
+					"patching_rect" : [ 588.0, 181.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -2530,6 +2622,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-26",
+					"ignoreclick" : 1,
 					"maxclass" : "led",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -2566,11 +2659,12 @@
 					"fontsize" : 12.0,
 					"hidden" : 1,
 					"id" : "obj-28",
+					"ignoreclick" : 1,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 846.5, 5.0, 183.0, 22.0 ],
+					"patching_rect" : [ 1174.5, 576.0, 183.0, 22.0 ],
 					"style" : "",
 					"text" : "cm-mem-pref carl_midi_out"
 				}
@@ -2779,7 +2873,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 512.0, 184.0, 86.0, 20.0 ],
+					"patching_rect" : [ 532.0, 184.0, 86.0, 20.0 ],
 					"style" : "",
 					"text" : "Keyboard",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -2799,13 +2893,13 @@
 					"bgfillcolor_type" : "color",
 					"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-43",
-					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "Zil 30   Port 1", ",", "Zil 30   Port 2", ",", "Zil 30   Port 3", ",", "Zil 30   Port 4", ",", "FaderPort", ",", "Xio", ",", "Daemon Input 0", ",", "Daemon Input 1", ",", "Daemon Input 2", ",", "Daemon Input 3", ",", "Daemon Input 4", ",", "Daemon Input 5", ",", "Daemon Input 6", ",", "Daemon Input 7", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 512.0, 202.0, 81.0, 22.0 ],
+					"patching_rect" : [ 532.0, 202.0, 81.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -2822,7 +2916,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 253.0, 32.0, 136.0, 22.0 ],
+					"patching_rect" : [ 398.0, 298.0, 136.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess controllers"
 				}
@@ -2841,7 +2935,7 @@
 					"bgfillcolor_type" : "color",
 					"color" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-45",
-					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "Elektron TM-1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "Zil 30   Port 1", ",", "Zil 30   Port 2", ",", "Zil 30   Port 3", ",", "Zil 30   Port 4", ",", "FaderPort", ",", "Xio", ",", "Daemon Input 0", ",", "Daemon Input 1", ",", "Daemon Input 2", ",", "Daemon Input 3", ",", "Daemon Input 4", ",", "Daemon Input 5", ",", "Daemon Input 6", ",", "Daemon Input 7", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "<off>", ",", "Gestionnaire IAC Bus IAC 1", ",", "Gestionnaire IAC Bus IAC 2", ",", "Gestionnaire IAC joué", ",", "Réseau Session 1", ",", "KARLAX Port 1", ",", "KARLAX Port 2", ",", "KARLAX Port 3", ",", "KARLAX Port 4", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "UltraLite MIDI Port", ",", "UltraLite Sync Port", ",", "Ableton Push Live Port", ",", "Ableton Push User Port", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "FaderPort", ",", "Automap MIDI", ",", "Automap Propellerhead", ",", "Automap Propellerhead Mixer", ",", "Automap Logic Mixer", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3380,7 +3474,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-179", 0 ],
 					"hidden" : 1,
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-156", 1 ]
 				}
 
@@ -3391,6 +3485,15 @@
 					"hidden" : 1,
 					"order" : 1,
 					"source" : [ "obj-156", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-195", 0 ],
+					"hidden" : 1,
+					"order" : 1,
+					"source" : [ "obj-156", 1 ]
 				}
 
 			}
@@ -3432,6 +3535,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-190", 0 ],
+					"hidden" : 1,
+					"order" : 2,
+					"source" : [ "obj-159", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-165", 0 ],
 					"order" : 0,
 					"source" : [ "obj-160", 0 ]
@@ -3458,6 +3570,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-162", 0 ],
 					"order" : 1,
+					"source" : [ "obj-161", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-191", 0 ],
+					"order" : 2,
 					"source" : [ "obj-161", 0 ]
 				}
 
@@ -3585,6 +3705,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-172", 0 ],
 					"order" : 1,
+					"source" : [ "obj-171", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-192", 0 ],
+					"order" : 2,
 					"source" : [ "obj-171", 0 ]
 				}
 
@@ -3896,6 +4024,52 @@
 					"hidden" : 1,
 					"order" : 4,
 					"source" : [ "obj-19", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-191", 1 ],
+					"source" : [ "obj-190", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-180", 0 ],
+					"order" : 0,
+					"source" : [ "obj-191", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-188", 0 ],
+					"order" : 1,
+					"source" : [ "obj-191", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-173", 0 ],
+					"order" : 0,
+					"source" : [ "obj-192", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-193", 0 ],
+					"order" : 1,
+					"source" : [ "obj-192", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-192", 1 ],
+					"source" : [ "obj-195", 0 ]
 				}
 
 			}
@@ -4345,7 +4519,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
 					"hidden" : 1,
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-54", 0 ]
 				}
 
@@ -4354,7 +4528,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-95", 0 ],
 					"hidden" : 1,
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-54", 0 ]
 				}
 
