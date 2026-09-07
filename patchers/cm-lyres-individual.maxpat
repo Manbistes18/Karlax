@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 366.0, 309.0, 457.0, 153.0 ],
+        "rect": [ 365.0, 308.0, 457.0, 153.0 ],
         "openinpresentation": 1,
         "toolbarvisible": 0,
         "boxes": [
@@ -20,8 +20,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 30.0, -4.0, 113.0, 22.0 ],
-                    "text": "loadmess set #1"
+                    "patching_rect": [ 30.0, -4.0, 96.0, 22.0 ],
+                    "text": "loadmess set #2"
                 }
             },
             {
@@ -71,8 +71,8 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 828.0, 299.0, 210.0, 22.0 ],
-                    "text": "cm-ctrl_sel-conf 0 127 127 #1_tilt",
+                    "patching_rect": [ 828.0, 299.0, 191.0, 22.0 ],
+                    "text": "cm-ctrl_sel-conf 0 127 64 #1_tilt",
                     "varname": "cm-ctrl_sel-conf[1]"
                 }
             },
@@ -121,8 +121,8 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 828.0, 255.0, 210.0, 22.0 ],
-                    "text": "cm-ctrl_sel-conf 0 127 127 #1_pan",
+                    "patching_rect": [ 828.0, 255.0, 199.0, 22.0 ],
+                    "text": "cm-ctrl_sel-conf 0 127 64 #1_pan",
                     "varname": "cm-ctrl_sel-conf[7]"
                 }
             },
@@ -391,7 +391,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 114.0, 492.0, 265.0, 22.0 ],
-                    "text": "1 255 2 255 3 255 4 255"
+                    "text": "14 129 15 2 16 129 17 2"
                 }
             },
             {
@@ -424,7 +424,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "list" ],
                     "patching_rect": [ 70.0, 400.0, 73.0, 22.0 ],
-                    "text": "listfunnel #2"
+                    "text": "listfunnel #3"
                 }
             },
             {
@@ -477,7 +477,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "patching_rect": [ 1095.0, 314.0, 67.0, 22.0 ],
-                    "save": [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 366, 309, 823, 462, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+                    "save": [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 365, 308, 822, 461, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
                     "text": "thispatcher"
                 }
             },

@@ -280,8 +280,8 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 239.0, 136.0, 154.0, 22.0 ],
-                    "text": "cm-lyres-individual lyre2 14",
+                    "patching_rect": [ 239.0, 136.0, 199.0, 22.0 ],
+                    "text": "cm-lyres-individual lyre2 \"Lyre 2\" 14",
                     "varname": "notes_seq_1_2-P[1]"
                 }
             },
@@ -295,8 +295,8 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 239.0, 83.0, 147.0, 22.0 ],
-                    "text": "cm-lyres-individual lyre1 1",
+                    "patching_rect": [ 239.0, 83.0, 192.0, 22.0 ],
+                    "text": "cm-lyres-individual lyre1 \"Lyre 1\" 1",
                     "varname": "notes_seq_1_2-P"
                 }
             },
