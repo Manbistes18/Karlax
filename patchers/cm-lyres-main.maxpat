@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1136.0, 95.0, 765.0, 717.0 ],
+        "rect": [ 929.0, 95.0, 765.0, 717.0 ],
         "boxes": [
             {
                 "box": {
@@ -280,8 +280,8 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 239.0, 136.0, 137.0, 22.0 ],
-                    "text": "cm-lyres-individual lyre2",
+                    "patching_rect": [ 239.0, 136.0, 154.0, 22.0 ],
+                    "text": "cm-lyres-individual lyre2 14",
                     "varname": "notes_seq_1_2-P[1]"
                 }
             },
@@ -295,8 +295,8 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 239.0, 83.0, 137.0, 22.0 ],
-                    "text": "cm-lyres-individual lyre1",
+                    "patching_rect": [ 239.0, 83.0, 147.0, 22.0 ],
+                    "text": "cm-lyres-individual lyre1 1",
                     "varname": "notes_seq_1_2-P"
                 }
             },

@@ -35,7 +35,7 @@
                     "patching_rect": [ 30.0, 26.0, 153.0, 30.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 12.0, 1.0, 153.0, 30.0 ],
-                    "text": "lyre-1"
+                    "text": "lyre2"
                 }
             },
             {
@@ -423,8 +423,8 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "list" ],
-                    "patching_rect": [ 70.0, 400.0, 66.0, 22.0 ],
-                    "text": "listfunnel 1"
+                    "patching_rect": [ 70.0, 400.0, 73.0, 22.0 ],
+                    "text": "listfunnel #2"
                 }
             },
             {
